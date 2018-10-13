@@ -8,6 +8,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:bambu-unesp-bauru/bambu-unesp-bauru.github.io.git master
+git push -f https://github.com/bambu-unesp-bauru/bambu-unesp-bauru.github.io.git master
 
 cd -

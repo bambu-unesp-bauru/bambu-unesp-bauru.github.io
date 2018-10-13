@@ -1,7 +1,7 @@
 <template>
 	<div class="Pesquisas">
 		<TheContent>
-			<h2>Pesquisas</h2>
+			<HeroTitle></HeroTitle>
 			<section class="pesquisas">
 				<h3>Dissertações e Teses:</h3>
 					<p>BARELLI, Breno Giordano Pensa. Design para sustentabilidade: modelo de cadeia produtiva do bambu laminado colado (BLC) e seus produtos. 2009. 131 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2009. Disponível em: <a href="http://hdl.handle.net/11449/89698">http://hdl.handle.net/11449/89698</a>.</p>
@@ -56,6 +56,7 @@
 <script>
 import TheContent from '@/components/TheContent.vue'
 import NavBottom from '@/components/NavBottom.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
 	name:'Pesquisas',
@@ -75,7 +76,8 @@ export default{
 	},
 	components:{
 		TheContent,
-		NavBottom
+		NavBottom,
+		HeroTitle
 	}
 }
 </script>

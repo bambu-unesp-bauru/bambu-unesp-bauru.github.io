@@ -1,4 +1,4 @@
-# bambuteca
+# Bambu Unesp Bauru
 
 ## Setup do projeto 
 

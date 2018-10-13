@@ -12,10 +12,12 @@ export default new Vuex.Store({
 	},
 	getters:{
 		imagesSrcBasePath(){ 
-			if(window.location.port == '8080' || window.location.port == '8081'){
-				return 'http://localhost/bambuteca_imagens/' 
-			}
-			else{ return './img/'}
+			return './img/'
+			// caso as imagens sejam hospedadas no butterCMS
+			// if(window.location.port == '8080' || window.location.port == '8081'){
+			// 	return 'https://cdn.buttercms.com/'
+			// }
+			// else{ return './img/'}
 		}
 	},
 	mutations: {

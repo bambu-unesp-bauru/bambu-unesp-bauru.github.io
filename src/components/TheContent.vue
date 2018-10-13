@@ -40,6 +40,7 @@ export default {
 			h3	{
 				font-weight: bold;
 				font-size: 1.82em;
+				line-height:1.25;
 				margin-bottom: .5em;
 				page-break-inside: avoid;
 			}

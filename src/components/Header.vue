@@ -1,7 +1,7 @@
 <template>
 	<header class="page-header">
 		<nav class="menu" :class="{ active: menu }">
-			<ol v-show="menu"> 
+			<ol v-show="menu">
 				<li class="menu-item"><h1 v-show="menu" class="page-title"><router-link to="/">Projeto bambu</router-link></h1></li>
 				<li class="menu-item"><router-link to="/projetobambu">O que é o Projeto Bambu</router-link></li>
 				<li class="menu-item"><router-link to="/projetos">Projetos</router-link></li>
@@ -14,6 +14,7 @@
 			</ol>
 			<button @click="menu = !menu"><i class="material-icons">{{ menuArrow }}</i></button>
 		</nav>
+		<div @click="menu = !menu" v-show="menu" class="background"></div>
     </header>
 </template>
 <script>
@@ -54,26 +55,25 @@ header.page-header{
 		grid-template-columns: 1fr auto;
 		grid-template-rows: 1fr;
 		grid-gap: 1rem;
-		// background-color: rgba(255,255,255,0);
 		transition: all ease .35s;
-
+		z-index: 100;
 		ol {
 			margin:auto;
 			li{ 
+				line-height: 3em;
 				a{
 					color: black;
 					text-decoration: none;
 					padding-left: 1.25rem;
-					padding-right: .45rem;
-					line-height: 1.52em;
 					font-size: 1.52em;
-					transition: all ease .35s
+					transition: all ease .35s;
+					border-left: 1em solid white;
 				}
 				a:hover{
-					background-color: #7fa77f
+					border-left: 1em solid black;
 				}
 				a.router-link-exact-active{
-					border-right: 1em solid #7fa77f
+					border-left: 1em solid #7fa77f
 				}
 			}
 		}
@@ -93,6 +93,32 @@ header.page-header{
 		button:hover{
 			background-color: black;
 		}
+		button:active{
+			background-color: #7fa77f;
+		}
+	}
+	.background{
+		cursor: pointer;
+		position: fixed;
+		background-color: rgba(255,255,255,.5);
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+	}
+
+}
+@media (max-width: 700px) {
+	header.page-header{
+		nav.menu{
+			ol{
+				li{
+					a{
+						font-size:1em;
+					}
+				}
+			}
+		}
 	}
 }
+
 </style>

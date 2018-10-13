@@ -1,6 +1,6 @@
 <template>
 	<div class="Publicacoes">
-		<h2>{{ this.$route.name }}</h2>
+		<HeroTitle></HeroTitle>
 		<Gallery :gall_dir="'publicacoes/'"></Gallery>
 
 		<TheContent>
@@ -91,6 +91,7 @@ import TheContent from '@/components/TheContent.vue'
 import Gallery from '@/components/Gallery.vue'
 import { pageviews } from '@/mixins/pageviews'
 import NavBottom from '@/components/NavBottom.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
 	name:'Publicacoes',
@@ -112,7 +113,8 @@ export default{
 	components:{
 		TheContent,
 		Gallery, 
-		NavBottom
+		NavBottom,
+		HeroTitle
 	}
 }
 </script>

@@ -30,8 +30,8 @@
 				<p>Existem no mundo cerca de 1.300 espécies de bambu, sendo a maioria delas espécies tropicais que se adaptam muito bem às nossas condições, como tem sido observado em pesquisas conduzidas para a introdução de espécies prioritárias na Área Experimental Agrícola do Departamento de Engenharia Mecânica da Unesp/Campus de Bauru. Onde também, no Laboratório de Processamento de Materiais, estão sendo desenvolvidas pesquisas com “bambu laminado colado e sarrafeado”, o que inclui aplicações em pisos, forros, paredes, cabos de ferramentas, vigas e vigotas para construção.</p>
 				
 				<div class="autor">
-				<img :src="autor">
-				<h4 class="post-autor">Marco Antônio dos Reis Pereira</h4>
+					<img :src="autor">
+					<h4 class="post-autor">Marco Antônio dos Reis Pereira</h4>
 				</div>
 			</section>
 		</TheContent>
@@ -53,7 +53,7 @@ export default {
 			routesDefs: {
 				next: {
 					to:'/projetobambu', 
-					name:'O que é o Projeto Bambu?'
+					name:'O que é o projeto bambu?'
 				},
 				previous: {
 					to: '',
@@ -62,7 +62,7 @@ export default {
 			},
 			heroAtrr: {
 				imageFullpath: undefined,
-				quote: 'Laboratório de Experimentação com Bambu da Unesp – Bauru'
+				quote: 'Laboratório de Experimentação com Bambu da UNESP - Bauru'
 			}
 		}
 	},

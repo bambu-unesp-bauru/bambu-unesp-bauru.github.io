@@ -1,6 +1,6 @@
 <template>
 	<div class="Quemsomos">
-		<h2>{{ this.$route.name }}</h2>
+		<HeroTitle></HeroTitle>
 		<Gallery gall_dir="quem_somos/"></Gallery>
 
 		<TheContent>
@@ -156,6 +156,7 @@
 import TheContent from '@/components/TheContent.vue'
 import Gallery from '@/components/Gallery.vue'
 import NavBottom from '@/components/NavBottom.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
 	name:'Quemsomos',
@@ -177,7 +178,8 @@ export default{
 	components:{
 		TheContent,
 		Gallery,
-		NavBottom
+		NavBottom,
+		HeroTitle
 	}
 }
 </script>

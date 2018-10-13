@@ -4,7 +4,7 @@
 
 		<div class="gallery">
 			<figure v-for="(img, index) in pageImages.laboratorio" :key="index">
-				<img :src="imageSrc(img, 'projeto_bambu_laboratorio/')">
+				<a :href="imageSrc(img, 'projeto_bambu_laboratorio/')"><img :src="imageSrc(img, 'projeto_bambu_laboratorio/')"></a>
 			</figure>
 		</div>
 
@@ -40,7 +40,7 @@
 
 		<Gallery>
 			<figure v-for="(img, index) in pageImages.areaAgricola" :key="index">
-				<img :src="imageSrc(img, 'projeto_bambu_area_agricola/')">
+				<a :href="imageSrc(img, 'projeto_bambu_area_agricola/')"><img :src="imageSrc(img, 'projeto_bambu_area_agricola/')"></a>
 			</figure>
 		</Gallery>
 
@@ -71,15 +71,12 @@ export default{
 				}
 			},
 			heroAtrr: {
-				imageFullpath: undefined,
+				imageFullpath: "background-image: url(\"./img/taquara/4_taquara_processo_seletivo_3.jpg\")",
 				quote: ''
 			}
 		}
 	},
 	mixins: [pageviews],
-	created(){
-			this.heroAtrr.imageFullpath = 'background-image: url("' + this.imagesSrcBasePath + 'projeto_bambu_laboratorio/' +this.pageImages.laboratorio[7]+'")'
-	}, 
 	components:{
 		Hero,
 		TheContent,

@@ -1,11 +1,13 @@
 <template>
 	<div class="produtos">
-		<Butter></Butter>
+		<!-- <Butter></Butter> -->
 
-		<div class="header">
+		<HeroTitle></HeroTitle>	
+
+<!-- 		<div class="header">
 			<h2 class="page-title">{{ this.$route.name }}</h2>
 		</div>
-
+ -->
 		<div class="busca">
 			<VueFuse
 				placeholder="Busque por nome"
@@ -27,24 +29,24 @@
 					<ul class="produtos-info">
 						<!-- <li v-show="produtoClicked">ID {{ produto.registro }}</li> -->
 						<li>{{ produto.nome }}</li>
-						<li v-show="produtoClicked">{{ produto.materiais }}</li>
-						<li v-show="produtoClicked">{{ produto.especie }}</li>
-						<li v-show="produtoClicked">{{ produto.tecnica }}</li>
-						<li v-show="produtoClicked">{{ produto.dim_alt_larg_prof }}</li>
-						<li v-show="produtoClicked">{{ produto.descricao_fisica }}</li>
-						<li v-show="produtoClicked">{{ produto.autor }}</li>
-						<li v-show="produtoClicked">{{ produto.origem }}</li>
-						<li v-show="produtoClicked">{{ produto.data }}</li>
-						<li v-show="produtoClicked">{{ produto.producao }}</li>
-						<li v-show="produtoClicked">{{ produto.funcao }}</li>
-						<li v-show="produtoClicked">{{ produto.dados_patrimoniais }}</li>
-						<li v-show="produtoClicked">{{ produto.compilacao_autores }}</li>
-						<li v-show="produtoClicked">{{ produto.compilacao_data }}</li>
+						<li v-show="produtoClicked"><strong>Materiais: </strong>{{ produto.materiais }}</li>
+						<li v-show="produtoClicked"><strong>Espécie: </strong>{{ produto.especie }}</li>
+						<li v-show="produtoClicked"><strong>Técnica: </strong>{{ produto.tecnica }}</li>
+						<li v-show="produtoClicked"><strong>Dimensão, lagura, profundiade: </strong>{{ produto.dim_alt_larg_prof }}</li>
+						<li v-show="produtoClicked"><strong>Descrição física: </strong>{{ produto.descricao_fisica }}</li>
+						<li v-show="produtoClicked"><strong>Autor: </strong>{{ produto.autor }}</li>
+						<li v-show="produtoClicked"><strong>Origem: </strong>{{ produto.origem }}</li>
+						<li v-show="produtoClicked"><strong>Data: </strong>{{ produto.data }}</li>
+						<li v-show="produtoClicked"><strong>Produção: </strong>{{ produto.producao }}</li>
+						<li v-show="produtoClicked"><strong>Função: </strong>{{ produto.funcao }}</li>
+						<li v-show="produtoClicked"><strong>Dados patrimoniais: </strong>{{ produto.dados_patrimoniais }}</li>
+						<li v-show="produtoClicked"><strong>Autores (compilação): </strong>{{ produto.compilacao_autores }}</li>
+						<li v-show="produtoClicked"><strong>Data (compilação): </strong>{{ produto.compilacao_data }}</li>
 					</ul>
 					<ul class="produtos-imagens">
 						<template v-for="(imagem,index) in produto.imagens">
 							<li v-if="imageType(imagem, 'th')"  :key="index">
-								<img class="product-image-item" :src="imagePath(imagem)">
+								<a :href="imagePath(imagem.replace('th.jpg','fl.jpg'))"><img class="product-image-item" :src="imagePath(imagem)"></a>
 							</li>
 						</template>
 					</ul>
@@ -60,7 +62,9 @@ import TheContent from '@/components/TheContent.vue'
 import { pageviews } from '@/mixins/pageviews'
 import NavBottom from '@/components/NavBottom.vue'
 import VueFuse from '@/components/VueFuse.vue'
-import Butter from '@/components/Butter.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
+
+// import Butter from '@/components/Butter.vue'
 
 
 export default{
@@ -69,7 +73,8 @@ export default{
 		TheContent,
 		NavBottom,
 		VueFuse,
-		Butter
+		HeroTitle
+		// Butter
 	},
 	data(){
 		return{
@@ -133,20 +138,11 @@ export default{
 </script>
 <style lang="scss" scoped>
 div.produtos{
-	h2.page-title ,div.busca, section{
+	div.busca, section{
 		width: 90%;
 		margin: auto
 	}
 
-	div.header{ 
-		color: white;
-		background-color: #7fa77f;
-	}
-
-	h2.page-title{
-		font-size: 6em;
-		padding: 1em 0; 
-	}
 	div.busca{
 		margin: 1em auto;
 		display:grid;

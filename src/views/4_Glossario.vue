@@ -1,13 +1,18 @@
 <template>
 	<div class="Glossario">
 		<TheContent>
-			<h2>Glossario</h2>
+
+			<HeroTitle></HeroTitle>
+
 			<section class="glossario">
 				<h3>A planta bambu</h3>
 				<ul>
 					<li><strong>colmo</strong> parte ligeiramente cilíndrica do bambu (em algumas espécies é quadrado e em muito poucas é maciço), dispõe de uma sequência de internós ocos, separados transversalmente uns dos outros por diafragmas (septos), que aparecem externamente como nós.</li>
-					<li><strong>cavidade</strong> parte vazia e interna do colmo.</li>
+
+					<!-- <li><strong>cavidade</strong> parte vazia e interna do colmo.</li> -->
+
 					<li><strong>diafragma</strong> feixe tendinoso localizado no interior do colmo, é a parte resistente de maior rigidez dos colmos, separa transversalmente as cavidades internas.</li>
+
 					<li><strong>nó</strong> elemento visível externamente ao colmo e alinhado à região do diafragma, dos nós se originam as folhas e ramos.</li>
 					<li><strong>ramo</strong> são os “galhos” do colmo. É a parte do bambu composta por gema, galho, folhas e flores. Utilizado para confecção de mudas de forma semelhante à estaquia em outros vegetais.</li>
 					<li><strong>gema</strong> parte inicial do ramo, pequeno bulbo que conecta o galho ao colmo, cada gema dormente pode evoluir para um rizoma, para um colmo ou para um galho.</li>
@@ -74,6 +79,7 @@
 <script>
 import TheContent from '@/components/TheContent.vue'
 import NavBottom from '@/components/NavBottom.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
 	name:'Glossario',
@@ -95,7 +101,8 @@ export default{
 
 	components:{
 		TheContent, 
-		NavBottom
+		NavBottom,
+		HeroTitle
 	}
 }
 </script>

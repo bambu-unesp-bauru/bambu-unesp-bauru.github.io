@@ -2,7 +2,7 @@
 	<div class="hero" :style="heroAtrr.imageFullpath">
 		<div class="headline">
 			<h2>{{ this.$route.name }}</h2>
-			<p>{{this.heroAtrr.quote}}</p>
+			<p v-if="heroAtrr.quote != ''">{{ this.heroAtrr.quote }}</p>
 		</div>
 	</div>
 </template>
@@ -32,21 +32,38 @@ export default{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		div.headline {
-			margin: auto;
-			color: white;
-			text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.6);
-			display:flex;
-			flex-direction: column;
-			align-items:center;
-			h2{
-				font-size: 6em;
-			}
 
+		div.headline {
+			margin:auto;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align:center;
+			h2{
+				font-size: 5em;
+				text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.6);
+			}
 			p{
-				font-size: 2em;
-				padding: 1em
+				width: 100%;
+				padding: .75em;
+				margin-top: 1em;
+				background-color: rgba(0,0,0,.75);
 			}
 		}
 	}
+
+@media (max-width: 700px) {
+	div.hero{
+		div.headline{
+			padding:0 1em;
+			h2{
+				font-size: 4em;
+			}
+			p{
+				line-height: 1.52;
+			}
+		}
+	}
+}
 </style>

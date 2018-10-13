@@ -20,7 +20,8 @@ div.gallery{
 	figure{
 		margin-bottom: 1.52rem;
 		img{
-			width: 100%
+			width: 100%;
+			background-color: #7fa77f;
 		}
 	}
 }

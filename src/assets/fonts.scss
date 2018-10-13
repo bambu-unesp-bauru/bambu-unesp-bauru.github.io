@@ -1,0 +1,73 @@
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal; 
+	font-weight: 400;
+	src: url('./assets/fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Roboto'), local('Roboto-Regular'),
+		url('./assets/fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./assets/fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./assets/fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./assets/fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./assets/fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/roboto-v18-latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+		url('./assets/fonts/roboto-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./assets/fonts/roboto-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./assets/fonts/roboto-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+		url('./assets/fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./assets/fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* tinos-regular - latin */
+@font-face {
+	font-family: 'Tinos';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/tinos-v11-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Tinos Regular'), local('Tinos-Regular'),
+		url('./assets/fonts/tinos-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./assets/fonts/tinos-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./assets/fonts/tinos-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./assets/fonts/tinos-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./assets/fonts/tinos-v11-latin-regular.svg#Tinos') format('svg'); /* Legacy iOS */
+}
+
+/* tinos-700 - latin */
+@font-face {
+	font-family: 'Tinos';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/tinos-v11-latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Tinos Bold'), local('Tinos-Bold'),
+		url('./assets/fonts/tinos-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./assets/fonts/tinos-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./assets/fonts/tinos-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+		url('./assets/fonts/tinos-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./assets/fonts/tinos-v11-latin-700.svg#Tinos') format('svg'); /* Legacy iOS */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Roboto', sans-serif;
+	font-weight:700
+}
+
+nav ol, nav li, nav a, .headline p {
+	font-family:'Roboto', sans-serif;
+	font-weight:400
+}
+
+.theContent ol, .theContent li, p {
+	font-family:'Tinos', serif;
+	font-weight: 400
+}
+strong{
+	font-weight: 700
+}

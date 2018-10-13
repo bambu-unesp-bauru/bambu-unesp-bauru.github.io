@@ -1,24 +1,26 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/0_Home.vue'
+import nprogress from 'nprogress'
 
-Vue.use(Router)
+Vue.use(Router, nprogress)
 
-export default new Router({
-	// mode: 'history',
+const router =  new Router({
+	mode: 'history',
 	base: process.env.BASE_URL,
 	scrollBehavior () {
 		return { x: 0, y: 0 }
 	},
+
 	routes: [
 		{
 			path: '/',
 			name: 'Projeto bambu',
-			component: Home
+			// component: Home
+			component: () => import('./views/0_Home.vue')
 		},
 		{
 			path: '/projetobambu',
-			name: 'O que é o Projeto Bambu?',
+			name: 'O que é o Projeto bambu?',
 			component: () => import('./views/1_Projetobambu.vue')
 		},
 		{
@@ -33,7 +35,7 @@ export default new Router({
 		},
 		{
 			path: '/glossario',
-			name: 'Glossario',
+			name: 'Glossário',
 			component: () => import('./views/4_Glossario.vue')
 		},
 		{
@@ -56,5 +58,21 @@ export default new Router({
 			name: 'Contato',
 			component: () => import('./views/8_Contato.vue')
 		}
-	]
+	],
+
 })
+
+router.beforeResolve((to, from, next) => {
+	// If this isn't an initial page load.
+	if (to.name) {
+		// Start the route progress bar.
+		nprogress.start()
+	}
+	next()
+}),
+
+router.afterEach(() => {
+	nprogress.done()
+})
+
+export default router

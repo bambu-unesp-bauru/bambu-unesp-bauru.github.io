@@ -2,8 +2,16 @@
 
 <nav class="bottom">
 	<div v-if="isHome"></div>
-	<router-link v-if="!isHome" :to="routesDefs.previous.to" tag="a" class="nav-bottom previous"><i class="material-icons">arrow_backward</i>{{ routesDefs.previous.name }}</router-link>
-	<router-link :to="routesDefs.next.to" tag="a" class="nav-bottom next">{{ routesDefs.next.name }} <i class="material-icons">arrow_forward</i> </router-link>
+	<router-link 
+		v-if="!isHome" 
+		:to="routesDefs.previous.to" 
+		tag="a" 
+		class="nav-bottom previous"><i class="material-icons">arrow_backward</i>{{ routesDefs.previous.name }}</router-link>
+	<router-link 
+		v-if="!isContato" 
+		:to="routesDefs.next.to" 
+		tag="a" 
+		class="nav-bottom next">{{ routesDefs.next.name }} <i class="material-icons">arrow_forward</i> </router-link>
 </nav>
 
 </template>
@@ -12,8 +20,9 @@
 export default{
 name:'navBottom',
 computed:{
-	isHome(){ return this.$route.path === '/' ? true : false }
-}, 
+	isHome(){ return this.$route.path === '/' ? true : false },
+	isContato(){ return this.$route.path === '/contato' ? true : false }
+},
 props:{ 
 		'routesDefs': {
 			'previous': {
@@ -27,7 +36,6 @@ props:{
 		}
 	}
 }
-
 </script>
 
 <style lang="scss">
@@ -63,5 +71,24 @@ nav.bottom{
 		i{ max-width:57px  }
 		justify-content: flex-start;
 	}
-}	
+}
+
+@media (max-width: 700px) {
+	nav.bottom{
+		a.nav-bottom{
+			background-color: rgb(150,150,150);
+			font-size:1.25em;
+			line-height: 1.25;
+			padding:0.5em;
+			i.material-icons{
+				font-size:1.5em;
+			}
+		}
+		a.nav-bottom.next{
+			i.material-icons{
+				margin-left:.65em
+			}
+		}
+	}
+}
 </style>
