@@ -3,8 +3,7 @@
 		<Hero :heroAtrr='heroAtrr'></Hero>
 		<TheContent>
 			<section>
-				<p>O Laboratório de Experimentação com Bambu da Unesp – Bauru é um programa de investigação sobre o bambu e suas aplicações, processado e in natura. Integrado ao Projeto Bambu, por meio do ensino e prática, os alunos de graduação e pós graduação dos cursos de Design, Artes, Arquitetura e Engenharia da Unesp - Bauru realizam atividades em campo, desenvolvem projetos e produtos, e promovem a divulgação da cultura do bambu. Esta plataforma reúne um banco de dados e imagens com produtos desenvolvidos por alunos e pesquisadores. Em constante atividade, as informações são atualizadas por novos ingressantes do programa. </p>
-
+<!-- 				<p>O Laboratório de Experimentação com Bambu da Unesp – Bauru é um programa de investigação sobre o bambu e suas aplicações, processado e in natura. Integrado ao Projeto Bambu, por meio do ensino e prática, os alunos de graduação e pós graduação dos cursos de Design, Artes, Arquitetura e Engenharia da Unesp - Bauru realizam atividades em campo, desenvolvem projetos e produtos, e promovem a divulgação da cultura do bambu. Esta plataforma reúne um banco de dados e imagens com produtos desenvolvidos por alunos e pesquisadores. Em constante atividade, as informações são atualizadas por novos ingressantes do programa. </p>
 				<h3>Porque o bambu?</h3>
 				<aside class="quote">
 				<span>Porque é</span><br>
@@ -26,12 +25,13 @@
 				</ul>
 				<p>Na área social existe a possibilidade do emprego de mão de obra das cidades e entorno, favorecendo a fixação do homem no campo, evitando o exodo rural e possibilitando ainda a geração de renda.</p>
 				<p>Na área ambiental, o bambu é considerado o “amigo da natureza” uma vez que é um grande protetor do solo devido ao seu vigoroso sistema radicular; é um rápido sequestrador e armazenador de carbono; fornece alimento e abrigo para a vida selvagem; é um recurso perene, renovável e de crescimento muito rápido (6 meses entre o nascimento do broto e a altura final do colmo, que pode atingir até 30 metros em algumas espécies gigantes) e ainda pode ser utilizado em milhares de aplicações. Tudo isto, utilizando-se apenas da energia do sol como alimento (fotossíntese).</p>
-				<p>A falta de informação,  faz o bambu ser esquecido e desconhecido entre nós, porém é referenciado até como divindade entre os orientais, tendo acompanhado a história do homem desde tempos imemoriais.</p>
-				<p>Existem no mundo cerca de 1.300 espécies de bambu, sendo a maioria delas espécies tropicais que se adaptam muito bem às nossas condições, como tem sido observado em pesquisas conduzidas para a introdução de espécies prioritárias na Área Experimental Agrícola do Departamento de Engenharia Mecânica da Unesp/Campus de Bauru. Onde também, no Laboratório de Processamento de Materiais, estão sendo desenvolvidas pesquisas com “bambu laminado colado e sarrafeado”, o que inclui aplicações em pisos, forros, paredes, cabos de ferramentas, vigas e vigotas para construção.</p>
-				
+				<p>A falta de informação,	faz o bambu ser esquecido e desconhecido entre nós, porém é referenciado até como divindade entre os orientais, tendo acompanhado a história do homem desde tempos imemoriais.</p>
+				<p>Existem no mundo cerca de 1.300 espécies de bambu, sendo a maioria delas espécies tropicais que se adaptam muito bem às nossas condições, como tem sido observado em pesquisas conduzidas para a introdução de espécies prioritárias na Área Experimental Agrícola do Departamento de Engenharia Mecânica da Unesp/Campus de Bauru. Onde também, no Laboratório de Processamento de Materiais, estão sendo desenvolvidas pesquisas com “bambu laminado colado e sarrafeado”, o que inclui aplicações em pisos, forros, paredes, cabos de ferramentas, vigas e vigotas para construção.</p> -->
+				<!-- {{ pageData.texto_principal }} -->
+				{{ textoPrincipal }}
 				<div class="autor">
-					<img :src="autor">
-					<h4 class="post-autor">Marco Antônio dos Reis Pereira</h4>
+					<img :src="autor.retrato">
+					<h4 class="post-autor">{{ autor.nome }}</h4>
 				</div>
 			</section>
 		</TheContent>
@@ -62,15 +62,40 @@ export default {
 			},
 			heroAtrr: {
 				imageFullpath: undefined,
-				quote: 'Laboratório de Experimentação com Bambu da UNESP - Bauru'
-			}
+				quote: undefined
+			},
+			autor: {
+				retrato: undefined,
+				nome: undefined
+			},
+			textoPrincipal: undefined
 		}
 	},
 	computed:{
-		autor(){ return this.imagesSrcBasePath + 'autores/' + 'marco-antonio-dos-reis-pereira.jpg' }
+		isFetching() { return this.$store.state.buttercms.fetching },
+		pageData(){ return this.$store.state.buttercms.home },
+		// autor(){ return this.imagesSrcBasePath + 'autores/' + 'marco-antonio-dos-reis-pereira.jpg' }
 	},
-	created(){
-			this.heroAtrr.imageFullpath = 'background-image: url("' + this.imagesSrcBasePath + 'home/' +this.pageImages[0]+'")'
+	watch: {
+		pageData(data){
+			if(data.fetched === true){
+				this.buildPage()
+			}
+		}
+	},
+	created(){ this.getPage() }, 
+	// updated(){ this.buildPage() },
+	methods:{
+		getPage() {
+			this.$store.dispatch('fetchPage', 'home') 
+		},
+		buildPage(){
+			this.heroAtrr.quote = this.pageData.subtitulo
+			this.heroAtrr.imageFullpath = 'background-image: url('+ this.pageData.imagem_de_fundo + ')'
+			this.autor.retrato = this.pageData.autor[0].retrato_do_autor
+			this.autor.nome = this.pageData.autor[0].nome_completo
+			this.textoPrincipal = this.pageData.texto_principal
+		}
 	}, 
 	mixins:[ pageviews ],
 	components:{

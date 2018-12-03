@@ -4,6 +4,7 @@
 		<a href="http://www.faac.unesp.br/"><div class="logo faac"></div></a>
 		<a href="http://www.feb.unesp.br/"><div class="logo feb"></div></a>
 		<a href="http://www.faac.unesp.br/#!/pos-graduacao/"><div class="logo pos-bauru"></div></a>
+		<a href="https://buttercms.com"><img class="buttercms" src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH"></a>
 	</div>
 </template>
 
@@ -18,6 +19,11 @@ export default{
 	display:flex;
 	justify-content: space-between;
 	margin: 3em 0;
+
+	img.buttercms{
+		max-width: 267px;
+		margin: auto
+	}
 
 	.logo{
 		opacity: .15;
