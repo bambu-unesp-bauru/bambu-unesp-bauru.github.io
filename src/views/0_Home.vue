@@ -3,35 +3,12 @@
 		<Hero :heroAtrr='heroAtrr'></Hero>
 		<TheContent>
 			<section>
-<!-- 				<p>O Laboratório de Experimentação com Bambu da Unesp – Bauru é um programa de investigação sobre o bambu e suas aplicações, processado e in natura. Integrado ao Projeto Bambu, por meio do ensino e prática, os alunos de graduação e pós graduação dos cursos de Design, Artes, Arquitetura e Engenharia da Unesp - Bauru realizam atividades em campo, desenvolvem projetos e produtos, e promovem a divulgação da cultura do bambu. Esta plataforma reúne um banco de dados e imagens com produtos desenvolvidos por alunos e pesquisadores. Em constante atividade, as informações são atualizadas por novos ingressantes do programa. </p>
-				<h3>Porque o bambu?</h3>
-				<aside class="quote">
-				<span>Porque é</span><br>
-				barato e auto-renovável,<br>
-				leve e forte,<br>
-				estético e tropical,<br>
-				resistente e energético.<br>
-				</aside>
-				<p>Porque possui excelentes características biológicas, físicas, químicas e mecânicas que o habilitam a ser utilizado em numerosas aplicações práticas.</p>
-				<p>A literatura nos mostra mais de 1,000 diferentes usos para o bambu, desde o consumo como alimento, através de seu nutritivo broto, até seu emprego na construção de casas, móveis, instrumentos musicais, artesanato, ferramentas e utensílios diversos entre muitos outros.</p>
-				<p>Algumas aplicações industriais do bambu tem sido atualmente objeto de pesquisas e desenvolvimento prático, destacando as possibilidades de exploração na Agroindústria.</p>
-				<ul>
-					<li>Polpa e celulose para papel</li>
-					<li>Mobiliário</li>
-					<li>Artesanato</li>
-					<li>Pisos e cabos de ferramentas de bambu laminado colado</li>
-					<li>Habitação popular</li>
-					<li>Brotos (responsável por U$ bilhões/ano de exportação na China)</li>
-				</ul>
-				<p>Na área social existe a possibilidade do emprego de mão de obra das cidades e entorno, favorecendo a fixação do homem no campo, evitando o exodo rural e possibilitando ainda a geração de renda.</p>
-				<p>Na área ambiental, o bambu é considerado o “amigo da natureza” uma vez que é um grande protetor do solo devido ao seu vigoroso sistema radicular; é um rápido sequestrador e armazenador de carbono; fornece alimento e abrigo para a vida selvagem; é um recurso perene, renovável e de crescimento muito rápido (6 meses entre o nascimento do broto e a altura final do colmo, que pode atingir até 30 metros em algumas espécies gigantes) e ainda pode ser utilizado em milhares de aplicações. Tudo isto, utilizando-se apenas da energia do sol como alimento (fotossíntese).</p>
-				<p>A falta de informação,	faz o bambu ser esquecido e desconhecido entre nós, porém é referenciado até como divindade entre os orientais, tendo acompanhado a história do homem desde tempos imemoriais.</p>
-				<p>Existem no mundo cerca de 1.300 espécies de bambu, sendo a maioria delas espécies tropicais que se adaptam muito bem às nossas condições, como tem sido observado em pesquisas conduzidas para a introdução de espécies prioritárias na Área Experimental Agrícola do Departamento de Engenharia Mecânica da Unesp/Campus de Bauru. Onde também, no Laboratório de Processamento de Materiais, estão sendo desenvolvidas pesquisas com “bambu laminado colado e sarrafeado”, o que inclui aplicações em pisos, forros, paredes, cabos de ferramentas, vigas e vigotas para construção.</p> -->
-				<!-- {{ pageData.texto_principal }} -->
-				{{ textoPrincipal }}
+				<div class="theContent" ref="homeContent"></div>
 				<div class="autor">
 					<img :src="autor.retrato">
 					<h4 class="post-autor">{{ autor.nome }}</h4>
+				</div>
+				<div>
 				</div>
 			</section>
 		</TheContent>
@@ -81,10 +58,13 @@ export default {
 			if(data.fetched === true){
 				this.buildPage()
 			}
-		}
+		},
 	},
 	created(){ this.getPage() }, 
-	// updated(){ this.buildPage() },
+	updated(){
+		const mainSection = this.$refs.homeContent
+		mainSection.innerHTML = this.textoPrincipal
+	},
 	methods:{
 		getPage() {
 			this.$store.dispatch('fetchPage', 'home') 
@@ -107,6 +87,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+// @import '../assets/scss/content';
+
 div.home{
 	nav.bottom{
 		height: 20vh;

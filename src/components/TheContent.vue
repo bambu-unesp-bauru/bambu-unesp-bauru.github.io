@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 	div.theContent{
 		section{	
 			padding: 1.5em 0;
