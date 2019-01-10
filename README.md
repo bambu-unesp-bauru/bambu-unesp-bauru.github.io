@@ -2,14 +2,6 @@
 
 ## Setup do projeto 
 
-### Inclua a chave do Butter CMS em arquivo 
-`.env`
-```
-
-VUE_APP_BUTTER=chave-da-api-butter-cms
-
-```
-
 ### Instal as dependências
 ```
 npm install
