@@ -9,12 +9,18 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import api from  './api'
 
 export default{
 	name:"app", 
 	components:{
 		Header,
 		Footer
+	},
+	mounted(){
+		api.get('/.json')
+			.then( res => console.log(res.data.contents) )
+			.catch( error => console.log(error) )
 	}
 }
 	

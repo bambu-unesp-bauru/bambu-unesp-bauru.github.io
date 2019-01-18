@@ -1,23 +1,33 @@
 # Bambu Unesp Bauru
 
-## Setup do projeto 
 
-### Instal as dependências
+Instale as dependências
 ```
 npm install
 ```
 
-### Compila e cria ambiente de desenvolvimento com "hot-reloads"
+Altere a variável de ambiente. Altere o arquivo `.env.sample` para `.env`. Altere a url da base da api do firebase:
+```
+# .env
+VUE_APP_API=https://[PROJECT_ID].firebaseio.com/
+```
+
+Compile e crie o ambiente de desenvolvimento
 ```
 npm run serve
 ```
 
-### Compila e minifica para produção
+Compile e minifica para produção
 ```
 npm run build
 ```
 
-### Lints and fixes files
+Aplique linter
 ```
 npm run lint
+```
+
+Deploy no github pages
+```
+deploy.sh
 ```
