@@ -45,6 +45,7 @@ import TheContent from '@/components/TheContent.vue'
 import Gallery from '@/components/Gallery.vue'
 import NavBottom from '@/components/NavBottom.vue'
 import { pageviews } from '@/mixins/pageviews'
+import { db } from '@/firebase'
 
 export default {
 	name: 'home',
@@ -64,6 +65,11 @@ export default {
 				imageFullpath: undefined,
 				quote: 'Laboratório de Experimentação com Bambu da UNESP - Bauru'
 			}
+		}
+	},
+	firebase:{
+		content: {
+			source: db.ref('contents')
 		}
 	},
 	computed:{

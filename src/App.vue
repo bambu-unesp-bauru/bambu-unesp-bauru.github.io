@@ -9,7 +9,7 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import api from  './api'
+// import { db } from './firebase';
 
 export default{
 	name:"app", 
@@ -17,11 +17,17 @@ export default{
 		Header,
 		Footer
 	},
-	mounted(){
-		api.get('/.json')
-			.then( res => console.log(res.data.contents) )
-			.catch( error => console.log(error) )
-	}
+	// firebase: {
+	// 	users: {
+	// 	// source: db.ref('contents'),
+	// 	source: db.ref('contents'),
+
+	// 	// Optional, allows you to handle any errors.
+	// 	cancelCallback(err) {
+	// 		console.error(err);
+	// 	}
+	// 	}
+	// }
 }
 	
 </script>

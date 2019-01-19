@@ -24,3 +24,6 @@ yarn-error.log*
 # local design (big) binary files
 *.psd
 *.ai
+
+# firebase config secrets
+firebase.js

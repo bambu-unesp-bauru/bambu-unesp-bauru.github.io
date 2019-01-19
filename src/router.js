@@ -16,7 +16,7 @@ const router =  new Router({
 			path: '/',
 			name: 'Projeto bambu',
 			// component: Home
-			component: () => import('./views/0_Home.vue')
+			component: () => import('./views/Home.vue')
 		},
 		{
 			path: '/projetobambu',
