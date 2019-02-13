@@ -13,8 +13,8 @@ export default {
 <style lang="scss">
 div.gallery{
 	max-width: 90%;
-	margin: auto;
-	margin-top: 1rem;
+	margin: 1rem auto auto;
+	padding-bottom: 1em;
 	columns: 300px;
 	column-gap: 1.52rem;
 	figure{

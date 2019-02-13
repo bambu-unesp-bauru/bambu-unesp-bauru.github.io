@@ -1,11 +1,9 @@
 <template>
-	<div class="Projetos">
+	<div class="Extensao">
 		<HeroTitle></HeroTitle>
 		<Gallery gall_dir="taquara/"></Gallery>
 
 		<TheContent>
-
-
 
 			<section>
 			<h3>Projeto de extensão Taquara</h3>
@@ -22,8 +20,9 @@
 			</div>
 
 			<section>
-			<h3>Projeto de extensão com a Associação Agroecológica Viverde</h3>
-			<p>O Projeto de extensão é desenvolvido desde o ano 2010 com a comunidade do Assentamento Rural Horto de Aimorés, localizado em Bauru a 15 Km da Unesp. Neste local, cerca de 350 famílias foram assentadas pelo INCRA desde o ano 2007, e além do trabalho com a terra, vem buscando alternativas de sustentabilidade, fixação no campo e geração de renda. Este projeto prevê um conjunto de atividades de capacitação, desenvolvimento e extensão, pautadas em estudos na área da sustentabilidade e do design em continuidade às ações já iniciadas no Projeto Bambu. Primeiramente, foram doadas 60 mudas para plantio comunitário na área do assentamento rural.  Por meio de parcerias, premiações e editais, como o 12° Concurso Banco Santander-Real Unisol (Universidade Solidária) do Ministério da Educação e Cultura (Proext–MEC 2010), aquisição de bolsas para alunos e trabalho de voluntariado, o Projeto Bambu recebeu recursos para desenvolvimento de extensão. Por um longo período, sempre semanalmente, foram realizados encontros e oficinas práticas na UNESP/Laboratório de Experimentação com Bambu onde a capacitação adquirida foi estendida aos agricultores das famílias do assentamento rural.</p> 
+			<h3>Projeto de extensão com o Assentamento Rural  Horto de Aimorés</h3>
+			<img :src="imageSrc('catalogo.jpg', 'extensao/')" alt="Imagem de publicação do do Assentamento Rural Horto de Aimorés">
+			<p>O Projeto de extensão é desenvolvido desde o ano 2008 com a comunidade do Assentamento Rural Horto de Aimorés, localizado em Bauru a 15 Km da Unesp. Neste local, cerca de 350 famílias foram assentadas pelo INCRA desde o ano 2007, e além do trabalho com a terra, vem buscando alternativas de sustentabilidade, fixação no campo e geração de renda. Este projeto prevê um conjunto de atividades de capacitação, desenvolvimento e extensão, pautadas em estudos na área da sustentabilidade e do design em continuidade às ações já iniciadas no Projeto Bambu. Primeiramente, foram doadas 60 mudas para plantio comunitário na área do assentamento rural.  Por meio de parcerias, premiações e editais, como o 12° Concurso Banco Santander-Real Unisol (Universidade Solidária) do Ministério da Educação e Cultura (Proext–MEC 2010), aquisição de bolsas para alunos e trabalho de voluntariado, o Projeto Bambu recebeu recursos para desenvolvimento de extensão. Por um longo período, sempre semanalmente, foram realizados encontros e oficinas práticas na UNESP/Laboratório de Experimentação com Bambu onde a capacitação adquirida foi estendida aos agricultores das famílias do assentamento rural.</p> 
 			<p>As atividades consistiram em capacitação técnica na cadeia produtiva do bambu: plantio, manejo, corte/colheita dos colmos, tratamento preventivo contra fungos e insetos, secagem, processamento para obtenção de ripas laminadas e confecção de produtos artesanais em bambu in natura e laminado colado (BLC). </p>
 			<p>O objetivo do projeto de extensão é estimular a geração de renda com a produção artesanal.  Através da participação em feiras, mostras locais em Bauru, no Campus da Unesp e a comercialização de utensílios para o Projeto “Caras do Brasil” do grupo Pão de Açúcar, a Associação Agroecológica Viverde tem recebido reconhecimento e ampliada a sua renda. </p>
 			<p>No ano de 2017 o projeto de extensão foi aprovado pelo edital de Voluntariado Banco do Brasil para aquisição das máquinas e equipamentos necessários à implantação da tecnologia do bambu laminado colado, como potencial de obtenção de maior valor agregado no produto.</p>
@@ -50,7 +49,7 @@ import HeroTitle from '@/components/HeroTitle.vue'
 import { pageviews } from '@/mixins/pageviews'
 
 export default{
-	name:'Projetos',
+	name:'Extensao',
 	data(){
 		return{
 			routesDefs: {
@@ -59,8 +58,8 @@ export default{
 					name:'Produtos'
 				},
 				previous: {
-					to: '/projetobambu',
-					name: 'O que é o Projeto Bambu?'
+					to: '/especies',
+					name: 'Espécies de Bambu'
 				}
 			}
 		}

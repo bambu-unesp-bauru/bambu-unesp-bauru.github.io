@@ -1,0 +1,202 @@
+[
+    {
+      "registro": 1,
+      "titulo": "Dendrocalamus asper",
+      "moitas-cultivadas": 34,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu gigante entouceirante, de grande porte.",
+      "usos mais comuns": "Construção pesada em meio rural; brotos comestíveis; móveis; instrumentos musicais; varetas; artesanato; utensílios domésticos. ",
+      "nome_foto": "1_dendrocalamus_asper.jpg"
+    },
+    {
+      "registro": 2,
+      "titulo": "Dendrocalamus latiflorus",
+      "moitas-cultivadas": 8,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante, de médio porte.",
+      "usos mais comuns": "Construção; alimentos",
+      "nome_foto": "2_dendrocalamus_latiflorus.jpg"
+    },
+    {
+      "registro": 3,
+      "titulo": "Dendrocalamus strictus",
+      "moitas-cultivadas": 8,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante, médio porte com colmos fortes apresentando um leve zigue zague.",
+      "usos mais comuns": "Material de construção; polpa e papel; implementos agrícolas; utensílios domésticos.",
+      "nome_foto": "3_dendrocalamus_strictus.jpg"
+    },
+    {
+      "registro": 4,
+      "titulo": "Guadua angustifolia",
+      "moitas-cultivadas": 50,
+      "origem": "Colombia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu gigante entouceirante, com espinhos nas gemas, de elevado porte, com elevadas propriedades mecânicas.",
+      "usos mais comuns": "Múltiplos usos, sendo mais usado em construção para casas de baixo custo.",
+      "nome_foto": "4_guadua_angustifolia.jpg"
+    },
+    {
+      "registro": 5,
+      "titulo": "Guadua chacoensis",
+      "moitas-cultivadas": 50,
+      "origem": "Brasil",
+      "prioritaria": "-",
+      "descricao": "Planta rizomatosa, perene, ereta na base. Seu habitat nas margens dos rios de florestas tropicais e subtropicais",
+      "usos mais comuns": "Construção; proteção de bacias hidrográficas e margens de rios e córregos; móveis e artesanato; fabrico de laminados, aglomerados, parquet.",
+      "nome_foto": "5_guadua_chacoensis.jpg"
+    },
+    {
+      "registro": 6,
+      "titulo": "Guadua otatea",
+      "moitas-cultivadas": 2,
+      "origem": "México",
+      "prioritaria": "-",
+      "descricao": "Otatea tem duas especies, é um bambú lenhoso ocupa grandes superficies onde muitas vezes é a única planta que cresce.",
+      "usos mais comuns": "Espécie mais utilizada pelas populações rurais do México, porque com suas hastes (mistura de caules com terra e grama) constrói-se paredes de casas tradicionais. ",
+      "nome_foto": "6_guadua_otatea.jpg"
+    },
+    {
+      "registro": 7,
+      "titulo": "Bambusa oldhami",
+      "moitas-cultivadas": 30,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu gigante ou bambu de Oldham.  A parte inferior dos caules não desenvolve ramos.",
+      "usos mais comuns": "Os colmos são utilizados para a fabricação de móveis, mas não são adequados para a construção",
+      "nome_foto": "7_bambusa_oldhami.jpg"
+    },
+    {
+      "registro": 8,
+      "titulo": "Bambusa vulgaris",
+      "moitas-cultivadas": 2,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Espécie de bambu entouceirante, de médio porte.",
+      "usos mais comuns": "Construção, polpa e papel; cercas; móveis; andaimes; artesanato. Reabilitação dos solos degradados e adaptação em áreas úmidas.",
+      "nome_foto": "8_bambusa_vulgaris.jpg"
+    },
+    {
+      "registro": 9,
+      "titulo": "Bambusa vulgaris v. vittata",
+      "moitas-cultivadas": 2,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Espécie entouceirante, forma aglomerados moderadamente soltos e não tem espinhos. Os colmos são amarelos e adornados com listras verdes e folhas verde-escuras. As hastes não são retas",
+      "usos mais comuns": "Barreiras de vento e poeira, fechamento de grandes espaços ou para contemplação.",
+      "nome_foto": "9_bambusa_vulgaris_v_vittata.jpg"
+    },
+    {
+      "registro": 11,
+      "titulo": "Bambusa tulda",
+      "moitas-cultivadas": 3,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante; de elevado a médio porte.",
+      "usos mais comuns": "Construção; polpa e papel; alimento (broto); artesanato e implementos diversos.",
+      "nome_foto": "11_bambusa_tulda.jpg"
+    },
+    {
+      "registro": 12,
+      "titulo": "Bambusa nutans",
+      "moitas-cultivadas": 3,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Bambusa nutans é uma planta tropical perene encontrada no Sudeste Asiático que cresce até 6-15 m de altura. Adequado para solos leves (arenosos), médios (argilosos) pesados (argilosos) e drenados.",
+      "usos mais comuns": "Alimentos (brotos); o colmo tem vários usos. É uma fonte de fibra utilizada na fabricação de papéis na Índia.",
+      "nome_foto": "12_bambusa_nutans.jpg"
+    },
+    {
+      "registro": 13,
+      "titulo": "Bambusa tuldoides",
+      "moitas-cultivadas": 3,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Espécie alastrante conhecido também como bambu-crioulo (Bambusa tuldoides). Essas espécies não oferecem riscos de se tornarem invasoras, devido ao tipo de rizoma paquimorfo com pescoço curto. ",
+      "usos mais comuns": "Cultivados tanto pelo seu aspecto ornamental, como para uso no artesanato, alimentação, dentre outros usos. ",
+      "nome_foto": "13_bambusa_tuldoides.jpg"
+    },
+    {
+      "registro": 14,
+      "titulo": "Bambusa multiplex",
+      "moitas-cultivadas": 1,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Espécie entouceirante de médio porte com colmos esguios (caules) e folhagem densa. A micropropagação também é viável através da proliferação de gemas axilares.",
+      "usos mais comuns": "Adequado para cercas vivas, uma vez que os caules e a folhagem formam um crescimento denso que cria uma barreira eficaz.",
+      "nome_foto": "14_bambusa_multiplex.jpg"
+    },
+    {
+      "registro": 15,
+      "titulo": "Bambusa longispicullata",
+      "moitas-cultivadas": 1,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Bambusa longispiculata, ou bambu Mahal, é uma espécie entouceirante nativo de Bangladesh e Myanmar. Cresce em moitas largas e abertas com ramificações ao nível do solo. ",
+      "usos mais comuns": "É ideal para a estabilização do solo nas barragens. Em troca, faz um excelente abrigo para as aves aquáticas. É muito pitoresco.",
+      "nome_foto": "15_bambusa_longispicullata.jpg"
+    },
+    {
+      "registro": 16,
+      "titulo": "Bambusa textilis",
+      "moitas-cultivadas": 5,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante; de médio porte, com colmos retos e lisos.",
+      "usos mais comuns": "Artesanato; utensílios domésticos.",
+      "nome_foto": "16_bambusa_textilis.jpg"
+    },
+    {
+      "registro": 17,
+      "titulo": "Bambusa mangensis",
+      "moitas-cultivadas": 2,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Este é um bambu tropical entouceirante eretos e densos compostos por colmos suaves e verdes de diâmetro com pequenas folhas e paredes grossas. ",
+      "usos mais comuns": "Celulose e papel",
+      "nome_foto": "17_bambusa_mangensis.jpg"
+    },
+    {
+      "registro": 18,
+      "titulo": "Bambusa ventricosa",
+      "moitas-cultivadas": 2,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Espécie de bambu nativa do Vietnã e da província de Guangdong no sul da China. ",
+      "usos mais comuns": " A espécie é usada em bonsai por possuir colmos bulbosos e ornamentai. Nomes comuns incluem o bambu de Buda e o bambu de barriga de Buda.",
+      "nome_foto": "18_bambusa_ventricosa.jpg"
+    },
+    {
+      "registro": 19,
+      "titulo": "Gigantoclhoa verticillata",
+      "moitas-cultivadas": 3,
+      "origem": "Ásia",
+      "prioritaria": "-",
+      "descricao": "Gigantochloa verticillata é um bambu perene, denso, formador de cachos.Uma planta dos trópicos perúmidos crescendo em elevações desde o nível do mar até cerca de 1.200. O centro da moita é irregularmente elevado acima do solo. ",
+      "usos mais comuns": "Materiais de construção; tubulações de água; móveis; utensílios domésticos; cestaria; pauzinhos e palitos de dente e instrumentos musicais.",
+      "nome_foto": "19_gigantoclhoa_verticillata.jpg"
+    },
+    {
+      "registro": 20,
+      "titulo": "Melocana baciffera",
+      "moitas-cultivadas": 4,
+      "origem": "Ásia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante, de médio porte e parede fina.",
+      "usos mais comuns": "Material de construção e artesanato",
+      "nome_foto": "20_melocana_baciffera.jpg"
+    },
+    {
+      "registro": 21,
+      "titulo": "Thirsostachis siamensis",
+      "moitas-cultivadas": 1,
+      "origem": "Tailandia",
+      "prioritaria": "S",
+      "descricao": "Espécie de bambu entouceirante, de médio porte; os colmos são retos e fortes e com espinhas nas gemas.",
+      "usos mais comuns": "Polpa para indústria de papel; alimentos(brotos); artesanato; cercas e cercas quebra-vento; ornamentação.",
+      "nome_foto": "21_thirsostachis_siamensis.jpg"
+    }
+  ]

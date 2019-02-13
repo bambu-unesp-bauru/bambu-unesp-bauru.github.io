@@ -14,49 +14,55 @@ const router =  new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'Projeto bambu',
-			// component: Home
+			name: 'Projeto bambu', // 1
 			component: () => import('./views/Home.vue')
 		},
 		{
 			path: '/projetobambu',
 			name: 'O que é o Projeto bambu?',
-			component: () => import('./views/1_Projetobambu.vue')
+			component: () => import('./views/Projetobambu.vue')
 		},
+
 		{
-			path: '/projetos',
-			name: 'Projetos',
-			component: () => import('./views/2_Projetos.vue')
+			path: '/especies',
+			name: 'Espécies de Bambu',
+			component: () => import('./views/Especies.vue')
+		},
+		
+		{
+			path: '/extensao',
+			name: 'Projetos de Extensão',
+			component: () => import('./views/Extensao.vue')
 		},
 		{
 			path: '/produtos',
 			name: 'Produtos',
-			component: () => import('./views/3_Produtos.vue')
+			component: () => import('./views/Produtos.vue')
+		},
+		{
+			path: '/publicacoes',
+			name: 'Publicações',
+			component: () => import('./views/Publicacoes.vue')
+		},
+		{
+			path: '/videos',
+			name: 'Vídeos',
+			component: () => import('./views/Videos.vue')
 		},
 		{
 			path: '/glossario',
 			name: 'Glossário',
-			component: () => import('./views/4_Glossario.vue')
+			component: () => import('./views/Glossario.vue')
 		},
 		{
 			path: '/quem-somos',
 			name: 'Quem somos',
-			component: () => import('./views/5_Quemsomos.vue')
-		},
-		{
-			path: '/publicacoes',
-			name: 'Publicacoes',
-			component: () => import('./views/6_Publicacoes.vue')
-		},
-		{
-			path: '/pesquisas',
-			name: 'Pesquisas',
-			component: () => import('./views/7_Pesquisas.vue')
+			component: () => import('./views/Quemsomos.vue')
 		},
 		{
 			path: '/contato',
 			name: 'Contato',
-			component: () => import('./views/8_Contato.vue')
+			component: () => import('./views/Contato.vue')
 		}
 	],
 

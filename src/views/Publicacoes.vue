@@ -1,9 +1,63 @@
 <template>
 	<div class="Publicacoes">
 		<HeroTitle></HeroTitle>
-		<Gallery :gall_dir="'publicacoes/'"></Gallery>
+
+		<div class="gallery">
+			<figure>
+				<img :src="imageSrc('/7_bambu_de_corpo_e_alma_1_e_2_edicao_1.jpg', 'publicacoes')" alt="Bambu corpo e alma">
+			</figure>
+		</div>
 
 		<TheContent>
+			<section class="pesquisas">
+				<h3>Dissertações e Teses:</h3>
+					<p>BARELLI, Breno Giordano Pensa. Design para sustentabilidade: modelo de cadeia produtiva do bambu laminado colado (BLC) e seus produtos. 2009. 131 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2009. Disponível em: <a href="http://hdl.handle.net/11449/89698">http://hdl.handle.net/11449/89698</a>.</p>
+					<p>PADOVAN, Roberval Bráz. O bambu na arquitetura: desing de conexões estruturais. 2010. 181 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2010. Disponível em: <a href="http://hdl.handle.net/11449/89702">http://hdl.handle.net/11449/89702</a>.</p>
+					<p>PEREIRA, Marco Antonio dos Reis. PROJETO BAMBU: INTRODUÇÃO DE ESPÉCIES, MANEJO, CARACTERIZAÇÃO E APLICAÇÕES. 2012. 200 f. Tese (livre-docência) - Universidade Estadual Paulista, Faculdade de Engenharia, 2012. Disponível em: <a href="http://hdl.handle.net/11449/106710">http://hdl.handle.net/11449/106710</a></p>
+					<p>PEREIRA, Marco Antonio dos Reis. CARACTERÍSTICAS HIDRÁULICAS DE TUBOS DE BAMBU GIGANTE (Dendrocalamus giganteus). Tese (Doutorado em Agronomia)- Faculdade de Ciências Agrárias, Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP. São Paulo. 1997</p>
+					<p>PEREIRA, Marco Antonio dos Reis. UTILIZAÇÃO DO BAMBU PARA FINS DE IRRIGAÇÃO-ASPECTOS TÉCNICOS. Dissertação (Mestrado em Ciências Agronômicas) – Faculdade de Ciências Agrárias, Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP. São Paulo. 1992</p>
+					<p>RAMOS, Bruno Perazzelli Farias. Metodologia de curvatura de bambu laminado colado (BLAC) para fabricação de mobiliário: diretrizes para o design. 2014. 114 f. Dissertação (mestrado) - Universidade Estadual Paulista Julio de Mesquita Filho, Faculdade de Arquitetura, Artes e Comunicação, 2014. Disponível em: <a href="http://hdl.handle.net/11449/110862">http://hdl.handle.net/11449/110862</a>.</p>
+					<p>SANTOS, Gabriel Fernandes dos. Design Participativo para a Sustentabilidade: desenvolvimento de painéis modulares para fechamentos, utilizando bambu associado com terra e resíduos. Tese (doutorado)- Universidade Estadual Paulista Julio de Mesquita Filho, Faculdade de Arquitetura, Artes e Comunicação, 2016. Disponível em: <a href="https://repositorio.unesp.br/handle/11449/137816">https://repositorio.unesp.br/handle/11449/137816</a></p>
+					<p>TAKAMITSU, Helen Tatiana. O uso de bambu e metal clay no design de jóias de arte. 2011. 156 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2011. Disponível em: <a href="http://hdl.handle.net/11449/89735">http://hdl.handle.net/11449/89735</a></p>
+					<p>VENTURA, Flavio Cardoso. Aplicabilidade da metodologia ecodesign à produção de calçados femininos. 2014. 91 f. Dissertação (mestrado) - Universidade Estadual Paulista Julio de Mesquita Filho, Faculdade de Arquitetura, Artes e Comunicação, 2014. Disponível em: 	<a href="http://hdl.handle.net/11449/110861">http://hdl.handle.net/11449/110861</a>.</p>
+					<p>YAMADA, Thaís Regina Ueno. Estruturas flat foldable em bambu laminado colado baseadas em técnicas de dobra e corte do origami e do kirigami. Tese (doutorado)- Universidade Estadual Paulista Julio de Mesquita Filho, Faculdade de Arquitetura, Artes e Comunicação, 2016. Disponível em: <a href="https://repositorio.unesp.br/handle/11449/144520">https://repositorio.unesp.br/handle/11449/144520</a></p>
+			</section>
+
+			<section class="pesquisas">
+				<h3>Pesquisa de Mestrado e Doutorado em andamento:</h3>
+				<p>Flávio Cardoso Ventura. Pesquisa de doutorado: Diretrizes para o design de componentes em bambu para calçados femininos.</p>
+
+				<p>Gabriel Fernandes do Santos. Pesquisa de doutorado: Design participativo para o bem-estar em comunidades carentes.</p>
+
+				<p>João Victor Gomes. Pesquisa de mestrado: Produção e avaliação de prótese transtibial de baixo custo constituída por biocompósitos.</p>
+
+				<p>Rodrigo Rocha. Pesquisa de mestrado: Bambu laminado termo-tratado: metodologias aplicáveis para a obtenção de novas tonalidades.</p>
+
+				<p>Patrícia Nunes Telles. Pesquisa de mestrado: Design sustentável: materiais e processos inovadores. Compósitos em fibra de bambu e sua empregabilidade na fabricação de mobiliário. </p>
+
+				<p>Silvia Sasaoka: Pesquisa de doutorado: Design, uma didática na qualificação técnica e estética do artesão de bambu.</p>
+			</section>
+
+			<section class="pesquisas">
+				<h3>Tcc Trabalho de Conclusão de Curso</h3>
+				<p>Eduardo Miguel Marques. Relatório final de projeto de extensão. Graduação Engenharia Civil e Ambiental Unesp Bauru. 2017.</p>
+				<p>Livia Garcia Ferrari. Design sustentável com bambu (Projeto de geração de renda para o Assentamento Rural Horto de Aimorés). Graduação em Design. 2012. </p>
+				<p>Mariana Lourenço. Relatório final: bambu e sustentabilidade: análise comparativa entre três processos de produção de mobiliário. Graduação Engenharia Mecânica Unesp Bauru. 2011. </p>
+				<p>Pedro Alexandre Aniceto. Treliça espacial com peças-sistema de bambu in natura. Graduação em Arquitetura da FAAC Unesp Bauru. 2017. </p>
+				<p>Rodrigo Domingos Borges. Determinação da densidade aparente ao longo do internó, em três diferentes alturas do colmo. Graduação Engenharia Mecânica Unesp Bauru.</p>
+			</section>
+
+			<section class="pesquisas">
+				<h3>Iniciação científica</h3>
+				<p>Rodrigo Rocha Carneiro -  2009-2010  Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
+				<p>Sabrina Saboya Antunes - 2010-2011   Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
+				<p>Camila Gondo - 2011-2012 - Implantação Do Projeto Bambu No Assentamento Rural Horto De Aimorés</p>
+				<p>Livia Garcia Ferrari - 2012-2013 - Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
+				<p>Giulianna de Moraes Godinho 2014 - 2015 Design Sustentável com Bambu (Capacitação e geração de renda para comunidades)</p>
+				<p>José Octávio Marinelli Marino - 2015-2016 Design Sustentável com Bambu (Capacitação e geração de renda para comunidades)</p>
+				<p>Tulio Sacchi Santos - 2016-2017 - Design Sustentável com Bambu (Capacitação e geração de renda para comunidades)</p>
+				<p>Guilherme Barbosa dos Santos - 2017-2018 - Design Sustentável com Bambu (Capacitação e geração de renda para comunidades)</p>
+			</section>
 
 			<section class="livros-publicados">
 				<h3>Livros publicados/organizados ou edições</h3>
@@ -43,7 +97,7 @@
 			</section>
 
 			<section class="livros-capitulos">
-				<h3>CAPÍTULOS DE LIVROS PUBLICADOS </h3>
+				<h3>Capítulos de livros publicados</h3>
 				<p>Pereira, M. A. R.. Implantação do Projeto Bambu no assentamento rural Horto de Aimorés (SP).. In: Patrícia Maria Drumond; Guilherme Wiedman. (Org.). Bambus no Brasil da biologia à tecnologia. 1ed.Rio de Janeiro: ICH - Instituto Ciência Hoje, 2017, v. 1, p. 321-334.</p> 
 
 				<p>AZAMBUJA, M. A. ; AFFONSO, S. B. A. ; Battistelle, R.A.G. ; VALARELLI, I. D. ; Pereira, M. A. R. ; SILVA, S. A. M. ; LAHR, F. A. R. . Esquadrias de bambu laminado colado. Bambus no Brasil da biologia à tecnologia. 1ed.Rio de Janeiro: ICH - Instituto Ciência Hoje, 2017, v. 1, p. 511-525.</p> 
@@ -99,12 +153,12 @@ export default{
 		return{
 			routesDefs: {
 				next: {
-					to:'/pesquisas', 
-					name:'Pesquisas'
+					to:'/videos', 
+					name:'Vídeos'
 				},
 				previous: {
-					to: '/quem-somos',
-					name: 'Quem somos'
+					to: '/produtos',
+					name: 'Produtos'
 				}
 			}
 		}
@@ -118,3 +172,11 @@ export default{
 	}
 }
 </script>
+
+<style lang="scss" scoped>
+.gallery {
+	columns: 600px
+}
+
+
+</style>

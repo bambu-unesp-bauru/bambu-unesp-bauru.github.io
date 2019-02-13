@@ -36,6 +36,21 @@
 			]
 	},
 	{
+		"glossario": 
+			[
+				{"file": "image1.jpg", "descricao": "A planta" },
+				{"file":"image10.jpg", "descricao":"Cavilha"},
+				{"file":"image2.jpg", "descricao":"Bambu processado"},
+				{"file":"image3.jpg", "descricao":"BLaC ou Bambu Laminado Colado"},
+				{"file":"image4.jpg", "descricao":"Chapas ou placas de Bambu Laminado Colado"},
+				{"file":"image5.jpg", "descricao":"Painel composto"},
+				{"file":"image6.jpg", "descricao":"Chapa, placa ou painel de bambu in natura"},
+				{"file":"image7.jpg", "descricao":"Treliça"},
+				{"file":"image8.jpg", "descricao":"Esteira de bambu colado"},
+				{"file":"image9.jpg", "descricao":"Painel composto"}
+			]
+	},
+	{
 		"projeto_bambu_laboratorio":
 			[
 				"2_acervo_de_trabalho_alunos_laboratorio_3.jpg",
@@ -46,6 +61,27 @@
 				"2_estoque_de_materia_prima_6.jpg",
 				"2_estoque_de_ripas_de_bambu_7.jpg",
 				"2_estudo_de_compositos_de_bambu_10.jpg"
+			]
+	},
+	{
+		"especies":
+			[
+				"11_bambusa_tulda.jpeg",
+				"13_bambusa_tuldoides.jpeg",
+				"14_bambusa_multiplex.jpeg",
+				"16_bambusa_textilis.jpeg",
+				"17_bambusa_mangensis.jpeg",
+				"18_bambusa_ventricosa.jpeg",
+				"19_gigantoclhoa_verticillata.jpeg",
+				"1_dendrocalamus_asper.jpeg",
+				"20_melocana_baciffera.jpg",
+				"2_dendrocalamus_latiflorus.jpg",
+				"3_dendrocalamus_strictus.jpeg",
+				"4_guadua_angustifolia_1.jpeg",
+				"5_guadua_chacoensis.jpeg",
+				"7_bambusa_oldhami.jpg",
+				"8_bambusa_vulgaris.jpeg",
+				"9_bambusa_vulgaris_v_vittata.jpeg"
 			]
 	},
 	{

@@ -1,12 +1,7 @@
 <template>
-	<div class="projetobambu">
-		<Hero :heroAtrr='heroAtrr'></Hero>
-
-		<div class="gallery">
-			<figure v-for="(img, index) in pageImages.laboratorio" :key="index">
-				<a :href="imageSrc(img, 'projeto_bambu_laboratorio/')"><img :src="imageSrc(img, 'projeto_bambu_laboratorio/')"></a>
-			</figure>
-		</div>
+	<div class="projetobambu">  <!-- 2 -->
+		<!-- <Hero :heroAtrr='heroAtrr'></Hero> -->
+		<HeroTitle></HeroTitle>
 
 		<TheContent>
 			<section class="projetobambu">
@@ -38,6 +33,13 @@
 			</section>
 		</TheContent>
 
+		<div class="gallery">
+			<figure v-for="(img, index) in pageImages.laboratorio" :key="index">
+				<a :href="imageSrc(img, 'projeto_bambu_laboratorio/')"><img :src="imageSrc(img, 'projeto_bambu_laboratorio/')"></a>
+			</figure>
+		</div>
+
+
 		<Gallery>
 			<figure v-for="(img, index) in pageImages.areaAgricola" :key="index">
 				<a :href="imageSrc(img, 'projeto_bambu_area_agricola/')"><img :src="imageSrc(img, 'projeto_bambu_area_agricola/')"></a>
@@ -54,7 +56,7 @@ import TheContent from '@/components/TheContent.vue'
 import { pageviews } from '@/mixins/pageviews'
 import Gallery from '@/components/Gallery.vue'
 import NavBottom from '@/components/NavBottom.vue'
-import Hero from '@/components/Hero.vue'
+import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
 	name:'Projetobambu',
@@ -62,23 +64,23 @@ export default{
 		return{
 			routesDefs: {
 				next: {
-					to:'/projetos', 
-					name:'Projetos'
+					to:'/especies', 
+					name:'Espécies de Bambu'
 				},
 				previous: {
 					to: '/',
 					name: 'Home'
 				}
 			},
-			heroAtrr: {
-				imageFullpath: "background-image: url(\"./img/taquara/4_taquara_processo_seletivo_3.jpg\")",
-				quote: ''
-			}
+			// heroAtrr: {
+			// 	imageFullpath: "background-image: url(\"./img/taquara/4_taquara_processo_seletivo_3.jpg\")",
+			// 	quote: ''
+			// }
 		}
 	},
 	mixins: [pageviews],
 	components:{
-		Hero,
+		HeroTitle,
 		TheContent,
 		NavBottom,
 		Gallery

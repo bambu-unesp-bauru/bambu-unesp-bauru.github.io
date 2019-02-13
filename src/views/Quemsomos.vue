@@ -164,8 +164,8 @@ export default{
 		return{
 			routesDefs: {
 				next: {
-					to:'/publicacoes', 
-					name:'Publicações'
+					to:'/contato', 
+					name:'Contato'
 
 				},
 				previous: {

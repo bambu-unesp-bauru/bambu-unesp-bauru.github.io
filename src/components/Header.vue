@@ -4,12 +4,14 @@
 			<ol v-show="menu">
 				<li class="menu-item"><h1 v-show="menu" class="page-title"><router-link to="/">Projeto bambu</router-link></h1></li>
 				<li class="menu-item"><router-link to="/projetobambu">O que é o Projeto Bambu</router-link></li>
-				<li class="menu-item"><router-link to="/projetos">Projetos</router-link></li>
+				<li class="menu-item"><router-link to="/especies">Espécies</router-link></li>
+				<li class="menu-item"><router-link to="/extensao">Projetos de extensão</router-link></li>
 				<li class="menu-item"><router-link to="/produtos">Produtos</router-link></li>
+				<li class="menu-item"><router-link to="/publicacoes">Publicações</router-link></li>
+				<li class="menu-item"><router-link to="/videos">Vídeos</router-link></li>
 				<li class="menu-item"><router-link to="/glossario">Glossário</router-link></li>
 				<li class="menu-item"><router-link to="/quem-somos">Quem somos</router-link></li>
-				<li class="menu-item"><router-link to="/publicacoes">Publicacoes</router-link></li>
-				<li class="menu-item"><router-link to="/pesquisas">Pesquisas</router-link></li>
+				<!-- <li class="menu-item"><router-link to="/pesquisas">Pesquisas</router-link></li> -->
 				<li class="menu-item"><router-link to="/contato">Contato</router-link></li>
 			</ol>
 			<button @click="menu = !menu"><i class="material-icons">{{ menuArrow }}</i></button>
@@ -61,6 +63,10 @@ header.page-header{
 			margin:auto;
 			li{ 
 				line-height: 3em;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
 				a{
 					color: black;
 					text-decoration: none;

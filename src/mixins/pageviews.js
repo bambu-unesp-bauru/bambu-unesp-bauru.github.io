@@ -6,13 +6,13 @@ export const pageviews = {
 			switch(this.$route.path){
 				case '/' : 	return allPagesImages.filter(index => index.home !== undefined)[0].home;
 				case '/publicacoes' : return allPagesImages.filter(index => index.publicacoes !== undefined)[0].publicacoes;
+				case '/glossario' : return allPagesImages.filter(index => index.glossario !== undefined)[0].glossario;
 				case '/projetobambu' : 
 					return {
 						areaAgricola: allPagesImages.filter(index => index.projeto_bambu_area_agricola !== undefined)[0].projeto_bambu_area_agricola,
 						laboratorio: allPagesImages.filter(index => index.projeto_bambu_laboratorio !== undefined)[0].projeto_bambu_laboratorio
 					};
-				// case '/projetos' : return allPagesImages.filter(index => index.taquara !== undefined)[0].taquara;
-				case '/projetos' : 
+				case '/extensao' : 
 					return {
 						taquara: allPagesImages.filter(index => index.taquara !== undefined)[0].taquara,
 						viverde: allPagesImages.filter(index => index.viverde !== undefined)[0].viverde

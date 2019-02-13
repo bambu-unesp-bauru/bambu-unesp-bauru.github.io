@@ -1,13 +1,6 @@
 <template>
 	<div class="produtos">
-		<!-- <Butter></Butter> -->
-
 		<HeroTitle></HeroTitle>	
-
-<!-- 		<div class="header">
-			<h2 class="page-title">{{ this.$route.name }}</h2>
-		</div>
- -->
 		<div class="busca">
 			<VueFuse
 				placeholder="Busque por nome"
@@ -16,13 +9,10 @@
 				:keys="keyBind"
 				:shouldSort="true"
 			/>
-
 		<select v-model="searchSelected">
 			<option v-for="(searchKey, index) in searchOptions" :key="index">{{searchKey}}</option>
 		</select>
-
 		</div>
-
 		<section class="bambuteca">
 			<ul class="produtos-colecao">
 				<li class="produto-item" v-for="produto in results" :key="produto.nome">
@@ -64,9 +54,6 @@ import NavBottom from '@/components/NavBottom.vue'
 import VueFuse from '@/components/VueFuse.vue'
 import HeroTitle from '@/components/HeroTitle.vue'
 
-// import Butter from '@/components/Butter.vue'
-
-
 export default{
 	name:'produtos',
 	components:{
@@ -74,7 +61,6 @@ export default{
 		NavBottom,
 		VueFuse,
 		HeroTitle
-		// Butter
 	},
 	data(){
 		return{
@@ -102,12 +88,12 @@ export default{
 
 			routesDefs: {
 				next: {
-					to:'/glossario', 
-					name:'Glossario'
+					to:'/publicacoes', 
+					name:'Publicações'
 				},
 				previous: {
-					to: '/projetos',
-					name: 'Projetos'
+					to: '/extensao',
+					name: 'Projetos de Extensão'
 				}
 			}
 		}
@@ -151,9 +137,6 @@ div.produtos{
 		input{
 			min-height: 45px;
 			padding: .35em
-		}
-		option{
-
 		}
 	}
 	section.bambuteca{

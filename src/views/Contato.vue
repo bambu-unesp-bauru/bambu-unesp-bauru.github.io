@@ -17,7 +17,7 @@
 			
 			<section class="contato">
 				<h3>Grupo Taquara</h3>
-				<p> (14) 3103-6120 ramal 6844 (UNESP Bauru)<br>
+				<p> (14) 3103 6120 ramal 6844 (UNESP Bauru)<br>
 				<a href="mailto:bambutaquara@gmail.com?Subject=Projeto%20Bambu" target="_top">bambutaquara@gmail.com</a><br>
 				Acesse <a href="https://www.facebook.com/bambutaquara">facebook.com/bambutaquara</a> e conheça o trabalho do grupo.</p>	
 			</section>
@@ -46,8 +46,8 @@ export default{
 					name:''
 				},
 				previous: {
-					to: '/pesquisas',
-					name: 'Pesquisas'
+					to: '/quem-somos',
+					name: 'Quem somos'
 				}
 			}
 		}

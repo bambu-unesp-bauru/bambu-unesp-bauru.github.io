@@ -9,25 +9,13 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-// import { db } from './firebase';
 
 export default{
 	name:"app", 
 	components:{
 		Header,
 		Footer
-	},
-	// firebase: {
-	// 	users: {
-	// 	// source: db.ref('contents'),
-	// 	source: db.ref('contents'),
-
-	// 	// Optional, allows you to handle any errors.
-	// 	cancelCallback(err) {
-	// 		console.error(err);
-	// 	}
-	// 	}
-	// }
+	}
 }
 	
 </script>

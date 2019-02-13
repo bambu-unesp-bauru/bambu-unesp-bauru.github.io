@@ -1,8 +1,14 @@
 <template>
-	<div class="home">
+	<div class="home">  <!-- 1 -->
+		<!-- <div v-for="(post, index) in contents" :key="index"> -->
+			<!-- <p>{{ post.data["-LTQDZgQRBJIr-__SBFs"]["Autor - imagem"] }}</p> -->
+			<!-- <p>{{ post.data[".key"]["Autor - imagem"] }}</p> -->
+			<!-- {{ richTextItems(post.data["-LTQDZgQRBJIr-__SBFs"]["Conteúdo"]) }} -->
+
 		<Hero :heroAtrr='heroAtrr'></Hero>
 		<TheContent>
-			<section>
+			<section ref="home">
+				<!-- {{ post.data["-LTQDZgQRBJIr-__SBFs"]["Conteúdo"] }} -->
 				<p>O Laboratório de Experimentação com Bambu da Unesp – Bauru é um programa de investigação sobre o bambu e suas aplicações, processado e in natura. Integrado ao Projeto Bambu, por meio do ensino e prática, os alunos de graduação e pós graduação dos cursos de Design, Artes, Arquitetura e Engenharia da Unesp - Bauru realizam atividades em campo, desenvolvem projetos e produtos, e promovem a divulgação da cultura do bambu. Esta plataforma reúne um banco de dados e imagens com produtos desenvolvidos por alunos e pesquisadores. Em constante atividade, as informações são atualizadas por novos ingressantes do programa. </p>
 
 				<h3>Porque o bambu?</h3>
@@ -35,6 +41,8 @@
 				</div>
 			</section>
 		</TheContent>
+		<!-- </div> -->
+
 		<NavBottom :routesDefs="routesDefs"></NavBottom>
 	</div>
 </template>
@@ -45,12 +53,13 @@ import TheContent from '@/components/TheContent.vue'
 import Gallery from '@/components/Gallery.vue'
 import NavBottom from '@/components/NavBottom.vue'
 import { pageviews } from '@/mixins/pageviews'
-import { db } from '@/firebase'
+// import { db } from '@/firebase'
 
 export default {
 	name: 'home',
 	data(){
 		return{
+			contentArray: false,
 			routesDefs: {
 				next: {
 					to:'/projetobambu', 
@@ -67,9 +76,16 @@ export default {
 			}
 		}
 	},
-	firebase:{
-		content: {
-			source: db.ref('contents')
+	// firebase:{
+	// 	contents: {
+	// 		source: db.ref('contents'),
+	// 	}
+	// },
+	methods:{
+		richTextItems(htmlString){ 
+			let doc = new DOMParser().parseFromString(htmlString, 'text/html').body.childNodes
+			console.log(doc)
+			this.contentArray = Array.from(doc)
 		}
 	},
 	computed:{
