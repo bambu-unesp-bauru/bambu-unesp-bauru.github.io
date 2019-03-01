@@ -58,10 +58,13 @@ export default{
 }
 @media (max-width: 1000px) {
 	.Footer{
-		flex-direction: column;
-		.logo{
-			margin:2em auto;
-			opacity:1
+		.instituicoes{
+			flex-direction: column;
+			.logo{
+				margin:2em auto;
+				opacity:1
+			}
+			.unesp{ background-position: 10px }
 		}
 	}
 }

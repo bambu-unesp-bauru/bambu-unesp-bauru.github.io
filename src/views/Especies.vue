@@ -62,6 +62,15 @@ div.Especies{
 		max-width: 90%;
 		margin: 2rem auto;
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+		@media (max-width: 1000px) {
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		}
+
+		@media (max-width: 450px) {
+			grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+		}
+
 		display: grid;
 		grid-gap: 2rem;
 		.especie{
