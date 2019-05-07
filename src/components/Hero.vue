@@ -25,7 +25,8 @@ export default{
 }
 </script>
 <style lang="scss">
-	div.hero{
+	.hero{
+		background: linear-gradient(#FFF, #096c42);
 		height: 100vh;
 		background-size: cover;
 		background-position: bottom; 
@@ -33,7 +34,7 @@ export default{
 		flex-direction: column;
 		align-items: center;
 
-		div.headline {
+		.headline {
 			margin:auto;
 			color: white;
 			display: flex;
@@ -54,8 +55,8 @@ export default{
 	}
 
 @media (max-width: 700px) {
-	div.hero{
-		div.headline{
+	.hero{
+		.headline{
 			padding:0 1em;
 			h2{
 				font-size: 4em;

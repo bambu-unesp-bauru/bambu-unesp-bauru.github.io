@@ -5,6 +5,18 @@
 			<HeroTitle></HeroTitle>
 
 			<section>
+				<h3>Unesp Notícias</h3>
+				<p>Estruturas de origami.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/fPrxQ20C85M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+			<section>
+				<h3>Unesp Notícias</h3>
+				<p>Bambu Taquara.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5zL2_IrZtJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+			<section>
 				<h3>Técnica Rural</h3>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/OE4J1L77QP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
@@ -59,3 +71,9 @@ export default{
 	}
 }
 </script>
+
+<style lang="scss">
+.youtube-frame{
+	max-width: 700px
+}
+</style>

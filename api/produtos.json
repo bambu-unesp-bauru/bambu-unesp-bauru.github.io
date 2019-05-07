@@ -1048,14 +1048,14 @@
 		"compilacao_autores":"Bárbara Drews Wayhs ",
 		"compilacao_data":43229,
 		"imagens":[
-			"35_luminária-sanfonada_detalhe_35.jpg",
-			"35_luminária-sanfonada_detalhe_35_fl.jpg",
-			"35_luminária-sanfonada_detalhe_35_md.jpg",
-			"35_luminária-sanfonada_detalhe_35_th.jpg",
-			"35_luminária-sanfonada_frente_35.jpg",
-			"35_luminária-sanfonada_frente_35_fl.jpg",
-			"35_luminária-sanfonada_frente_35_md.jpg",
-			"35_luminária-sanfonada_frente_35_th.jpg"
+			"35_luminaria-sanfonada_detalhe_35.jpg",
+			"35_luminaria-sanfonada_detalhe_35_fl.jpg",
+			"35_luminaria-sanfonada_detalhe_35_md.jpg",
+			"35_luminaria-sanfonada_detalhe_35_th.jpg",
+			"35_luminaria-sanfonada_frente_35.jpg",
+			"35_luminaria-sanfonada_frente_35_fl.jpg",
+			"35_luminaria-sanfonada_frente_35_md.jpg",
+			"35_luminaria-sanfonada_frente_35_th.jpg"
 		]
 	},
 	{
@@ -1198,10 +1198,6 @@
 		"compilacao_autores":"Thaís Regina Ueno Yamada",
 		"compilacao_data":43171,
 		"imagens":[
-			"40_miura01_fundo_branco.jpg",
-			"40_miura01_fundo_branco_fl.jpg",
-			"40_miura01_fundo_branco_md.jpg",
-			"40_miura01_fundo_branco_th.jpg",
 			"40_rigid-flat-foldabel_aberta_40.jpg",
 			"40_rigid-flat-foldabel_arco_40.jpg",
 			"40_rigid-flat-foldabel_arco_40_fl.jpg",
@@ -1351,7 +1347,13 @@
 		"memorial":"Produto  explora técnicas do origami e  kirigami, artes tradicionais que empregam dobras e cortes para a construção de formas elaboradas a partir de planos simples. Estas  técnicas podem ser ferramentas para a resolução de problemas comuns da sociedade moderna, como redução de custos de produção, transporte e armazenamento, além do aumento de possibilidades formais que trazem a versatilidade e a flexibilidade de uso como vantagens adicionais. O emprego de tecnologias de prototipagem também facilita a produção tornando o processo mais rápido e econômico em consumo de energia, tempo e geração de resíduos, além da  preservação e fidelidade da geometria das peças que podem ser modeladas e testadas virtualmente. ",
 		"dados_patrimoniais":"Laboratório de Experimentação com Bambu – UNESP/Bauru na FEB – Faculdade de Engenharia de Bauru",
 		"compilacao_autores":"Thaís Regina Ueno Yamada",
-		"compilacao_data":43171
+		"compilacao_data":43171,
+		"imagens": [
+			"40_miura01_fundo_branco.jpg",
+			"40_miura01_fundo_branco_fl.jpg",
+			"40_miura01_fundo_branco_md.jpg",
+			"40_miura01_fundo_branco_th.jpg"
+		]
 	},
 	{
 		"registro":46,

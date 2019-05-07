@@ -13,6 +13,6 @@ export default new Vuex.Store({
 		especies
 	},
 	getters:{
-		imagesSrcBasePath () {  return './img/' }
+		imagesSrcBasePath () {  return 'https://s3-sa-east-1.amazonaws.com/bambu-bauru-unesp/' }
 	}
 })

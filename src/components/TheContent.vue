@@ -46,11 +46,10 @@ export default {
 			}
 			ul {
 				padding-left:1em;
-				li{
-				list-style-type: square;
-				line-height: 1.52em;
 				page-break-inside: avoid;
-
+				li{
+					list-style-type: square;
+					line-height: 1.52em;
 				}
 			}
 			div.autor{

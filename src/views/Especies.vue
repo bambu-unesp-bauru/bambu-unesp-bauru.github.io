@@ -4,7 +4,7 @@
 		<section class="especies-colecao">
 			<div class="especie" v-for="(especie, index) in especies" :key="index">
 				<h2>{{ especie["titulo"] }}</h2>
-				<img :src="imagePath(especie.nome_foto)" :alt="'Foto de ' + especie.titulo">
+				<img v-if="especie.nome_foto" :src="imagePath(especie.nome_foto)" :alt="'Foto de ' + especie.titulo">
 				<p><span>Moitas cultivadas:</span> {{ especie["moitas-cultivadas"] }}</p>
 				<p class="origem"><span>Origem:</span> {{ especie["origem"] }}</p>
 				<p class="descricao"><span>Descricao:</span> <br>{{ especie["descricao"] }}</p>
