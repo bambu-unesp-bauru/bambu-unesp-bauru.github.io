@@ -2,19 +2,14 @@
 	<div class="produtos">
 		<HeroTitle></HeroTitle>	
 		<div class="busca">
-			<VueFuse
-				placeholder="Busque por nome"
-				event-name="results"
-				:list="produtos"
-				:keys="keyBind"
-				:shouldSort="true"
-			/>
-		<select v-model="searchSelected">
-			<option v-for="(searchKey, index) in searchOptions" :key="index">{{searchKey}}</option>
-		</select>
+			<input type="search" v-model="search" placeholder="Busca por nome">
+
+			<select v-model="searchSelected">
+				<option v-for="(searchKey, index) in searchOptions" :key="index">{{searchKey}}</option>
+			</select>
 		</div>
 		<section class="bambuteca">
-			<ul class="produtos-colecao">
+			<ul class="produtos-colecao" v-if="results.length > 0">
 				<li class="produto-item" v-for="produto in results" :key="produto.nome">
 					<ul class="produtos-info">
 						<!-- <li v-show="produtoClicked">ID {{ produto.registro }}</li> -->
@@ -42,16 +37,20 @@
 					</ul>
 				</li>
 			</ul>
+			<div class="bambuteca__vazio" v-else>
+				<h1 class="bambuteca__vazio__titulo">Nenhum resultado encontrado para filtro colocado.</h1>
+				<h2 class="bambuteca__vazio__subtitulo">Tente novamente com outro filtro!</h2>
+			</div>
 		</section>
 		<NavBottom :routesDefs="routesDefs"></NavBottom>
 	</div>
 </template>
 
 <script>
+import Fuse from 'fuse.js'
 import TheContent from '@/components/TheContent.vue'
 import { pageviews } from '@/mixins/pageviews'
 import NavBottom from '@/components/NavBottom.vue'
-import VueFuse from '@/components/VueFuse.vue'
 import HeroTitle from '@/components/HeroTitle.vue'
 
 export default{
@@ -59,15 +58,15 @@ export default{
 	components:{
 		TheContent,
 		NavBottom,
-		VueFuse,
 		HeroTitle
 	},
 	data(){
 		return{
-			results: [],
+			// results: [],
 			searchSelected: 'nome',
 			keyBind: ['nome'],
 			produtoClicked: true,
+			search: '',
 			searchOptions: [
 				"nome",
 				"registro",
@@ -85,7 +84,6 @@ export default{
 				"compilacao_autores",
 				"compilacao_data"
 			],
-
 			routesDefs: {
 				next: {
 					to:'/publicacoes', 
@@ -103,11 +101,30 @@ export default{
 			let output = []
 			output.push(before)
 			this.keyBind = output
-		}, 
-	}, 
+		}
+	},
 	mixins:[ pageviews ],
 	computed:{
-		produtos(){ return this.$store.state.produtos }
+		results(){ 
+			const fuseConfig = {
+				threshold: 0.5,
+				location: 0,
+				distance: 100,
+				maxPatternLength: 32,
+				findAllMatches: true,
+				keys: [this.searchSelected],
+			};
+			const fuse = new Fuse(this.$store.state.produtos, fuseConfig);
+			console.log(fuseConfig)
+			
+			if (this.search){				
+				let search = fuse.search(this.search);
+				search = search.map(item => item.item)
+				return search
+			} else {
+				return this.$store.state.produtos
+			}
+		}
 	},
 	created(){
 		this.$on('results', results => { this.results = results})
@@ -177,6 +194,20 @@ div.produtos{
 						max-width: 100%;
 					}
 				}
+			}
+		}
+		div.bambuteca__vazio {
+			margin: 30px 0;
+
+			h1.bambuteca__vazio__titulo {
+				font-size: 1.2rem;
+				font-weight: 500;
+			}
+
+			h2.bambuteca__vazio__subtitulo {
+				font-size: 1rem;
+				font-weight: 500;
+				margin-top: 15px;
 			}
 		}
 	}

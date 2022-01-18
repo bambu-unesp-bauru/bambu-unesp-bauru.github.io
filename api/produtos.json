@@ -20,7 +20,7 @@
 			"1_andador-ortopedico_frente_1.jpg",
 			"1_andador-ortopedico-detalhe_1_fl.jpg",
 			"1_andador-ortopedico-detalhe_1_md.jpg",
-			"1_andador-ortopedico-detalhe_1_th.jpg",
+			"1_andador-ortopedico-detalhe_1th.jpg",
 			"1_andador-ortopedico-frente_1_md.jpg",
 			"1_andador-ortopedico-frente_1_fl.jpg",
 			"1_andador-ortopedico-frente_1_th.jpg"
@@ -1893,6 +1893,50 @@
 			"62_banco_origami_lateral_62_fl.jpg",
 			"62_banco_origami_lateral_62_md.jpg",
 			"62_banco_origami_lateral_62_th.jpg"
+		]
+	},
+	{
+		"registro": 63,
+		"nome":"Japomesa",
+		"materiais":"Bambu Laminado Colado, aglomerado (residuos de bambu), cola, tampo é conectado com furos para cavilhas, seladora, verniz, tecidos reciclados, estopa.",
+		"especie":"Dendrocalamus Giganteus",
+		"tecnica":"Corte, placas de BLC, placas de aglomerado de resíduos do processamento do bambu (BLC), colagem a base de água e prensas e costura de retalhos para confecção de almofadas",
+		"dim_alt_larg_prof":"35, 55, 55",
+		"descricao_fisica":"mesa quadrada de bambu com dois tampos: um inferior de placa de aglomerado para armazenamento de quatro almofadas de tecido e outro superior é um  tampo de vidro não fixo. As pernas das mesas também confeccionadas de bambu BLC.",
+		"autor":"Ana Paula Kiyohara; Camila Gondo; Karina Sayuri Nakata; Roni Guiotoko",
+		"origem":"Laboratório de Experimentação com Bambu – UNESP/Bauru na FEB – Faculdade de Engenharia de Bauru",
+		"data":2011,
+		"producao":"Ana Paula Kiyohara; Camila Gondo; Karina Sayuri Nakata; Roni Guiotoko",
+		"funcao":"mesa de refeições comum no Japão inspirada no estilo de mesa Chabudai.",
+		"dados_patrimoniais":"Laboratório de Experimentação com Bambu-UNESP/BAURUna FEB- Faculdade de engenharia de Bauru",
+		"compilacao_autores":"Silvia Sasaoka",
+		"compilacao_data":"29/11/2018",
+		"imagens":[
+			"64_japomesa_frente_64_th.jpg",
+			"64_japomesa_lateral_64_th.jpg",
+			"64_japomesa_detalhe_64_th.jpg"
+		]
+	},
+	{
+		"registro": 64,
+		"nome":"Mesa Alma de Bambu",
+		"materiais":"Colmo de bambu in natura,  Ripas de bambu, cola e parafusos e vidro  ou acrilico de 06mm para o tampo.",
+		"especie":"Dendrocalamus Giganteus",
+		"tecnica":"Cortes logitudinal da parte central do colmo do bambu, preservando os internos e a casca. Fixação em outros cortes atraves de ripas, cola e parafusamento.",
+		"dim_alt_larg_prof":"100, 50, 45 ",
+		"descricao_fisica":"Mesa retangular com tampo e  pernas da mesa, com parte da Alma do Bambu: Cortes de colmo atraves da região central. Esses cortes são conectados  com outros cortes  para os pés e esses são fixados  atráves de ripas, cola e parafusos. ",
+		"autor":"Ana Patrícia Telles Nunes",
+		"origem":"Laboratório de Experimentação com Bambu – UNESP/Bauru na FEB – Faculdade de Engenharia de Bauru",
+		"data":2021,
+		"producao":"Ana Patrícia Telles Nunes.",
+		"funcao":"Mesa de apoio de centro  para objetos de sala de estar.",
+		"dados_patrimoniais":"Autora.",
+		"compilacao_autores":"Ana Patrícia Telles Nunes",
+		"compilacao_data":"10/01/2022",
+		"imagens":[
+			"65_mesa_vista_frontal_65_th.jpg",
+			"65_mesa_lateral_65_th.jpg",
+			"65_mesa_detalhe_65_th.jpg"
 		]
 	}
 ]

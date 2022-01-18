@@ -8,6 +8,7 @@
 				<li class="menu-item"><router-link to="/extensao">Projetos de extensão</router-link></li>
 				<li class="menu-item"><router-link to="/produtos">Produtos</router-link></li>
 				<li class="menu-item"><router-link to="/publicacoes">Publicações</router-link></li>
+				<li class="menu-item"><router-link to="/depoimentos">Depoimentos</router-link></li>
 				<li class="menu-item"><router-link to="/videos">Vídeos</router-link></li>
 				<li class="menu-item"><router-link to="/glossario">Glossário</router-link></li>
 				<li class="menu-item"><router-link to="/quem-somos">Quem somos</router-link></li>
@@ -86,15 +87,19 @@ header.page-header{
 		button{
 			cursor: pointer;
 			border: 0;
-			max-width: 40px;
+			max-width: 55px;
 			display: flex;
 			color: white;
 			background-color: #7fa77f;
-			max-height: 40px;
+			max-height: 55px;
 			align-items: center;
 			border: 1px white solid;
 			margin: .5em;
 			transition: all ease .35s;
+
+			.material-icons {
+				font-size: 40px;
+			}
 		}
 		button:hover{
 			background-color: black;

@@ -27,8 +27,33 @@
 			</section>
 
 			<section>
-				<h3>Reportagem Globo Rural</h3>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/cdIJoLSsEhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h3>Festival de Lanternas de Bambu -Unesp Bauru e Take Akari</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/JMwrtkWyuA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+			<section>
+				<h3>Intercâmbio Japão-Brasil – Bambu: a revitalização de uma comunidade</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/3A20J2XYgcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3>Oficina de Bambu</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DQ15NWfC-nI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3>Retrospectiva Taquara 2016</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/3yXCm0i5RJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3>Time Lapse TaquaTubo</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/iNRahUTXWDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3>Visita da E.E. Dr. Luiz Zuiani</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qJpZREzJVzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3>Projeto Bambu Unesp</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7yY3hrHyYAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
 
 			<section>
