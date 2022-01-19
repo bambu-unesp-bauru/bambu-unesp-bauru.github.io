@@ -11,15 +11,16 @@
 				Tel 14 3103 6121  fax 14 3231 2761<br> 
 				</p>
 				<p>Fale por e-mail com: Prof. Dr. Marco A. dos Reis Pereira:<br>
-				<a href="mailto:pereira@feb.unesp.br?Subject=Projeto%20Bambu" target="_top">pereira@feb.unesp.br</a>
+					<a href="mailto:marco-antonio.pereira@unesp.br?Subject=Projeto%20Bambu" target="_top">marco-antonio.pereira@unesp.br</a>
 				</p>
 			</section>
 			
 			<section class="contato">
 				<h3>Grupo Taquara</h3>
 				<p> (14) 3103 6120 ramal 6844 (UNESP Bauru)<br>
-				<a href="mailto:bambutaquara@gmail.com?Subject=Projeto%20Bambu" target="_top">bambutaquara@gmail.com</a><br>
-				Acesse <a href="https://www.facebook.com/bambutaquara">facebook.com/bambutaquara</a> e conheça o trabalho do grupo.</p>	
+				<a href="mailto:bambutaquara@gmail.com?Subject=Projeto%20Bambu" target="_top">bambutaquara@gmail.com</a>
+				Contato sobre o site: <a href="mailto:silvia.sasaoka@gmail.com?Subject=Projeto%20Bambu" target="_top">silvia.sasaoka@gmail.com</a><br>
+				Conheça a página do Grupo Taquara: <a href="https://www.facebook.com/bambutaquara">facebook.com/bambutaquara</a> e veja nosso trabalho do grupo.</p>	
 			</section>
 
 			<section>
