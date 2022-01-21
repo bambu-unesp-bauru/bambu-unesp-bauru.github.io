@@ -73,7 +73,7 @@
 			</section>
 
 			<section class="pesquisas">
-				<h3>Dissertações e Teses:</h3>
+				<h3>Dissertações e Teses</h3>
 					<!-- <p>BARELLI, Breno Giordano Pensa. Design para sustentabilidade: modelo de cadeia produtiva do bambu laminado colado (BLC) e seus produtos. 2009. 131 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2009. Disponível em: <a href="http://hdl.handle.net/11449/89698">http://hdl.handle.net/11449/89698</a>.</p>
 					<p>PADOVAN, Roberval Bráz. O bambu na arquitetura: desing de conexões estruturais. 2010. 181 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2010. Disponível em: <a href="http://hdl.handle.net/11449/89702">http://hdl.handle.net/11449/89702</a>.</p>
 					<p>PEREIRA, Marco Antonio dos Reis. PROJETO BAMBU: INTRODUÇÃO DE ESPÉCIES, MANEJO, CARACTERIZAÇÃO E APLICAÇÕES. 2012. 200 f. Tese (livre-docência) - Universidade Estadual Paulista, Faculdade de Engenharia, 2012. Disponível em: <a href="http://hdl.handle.net/11449/106710">http://hdl.handle.net/11449/106710</a></p>
@@ -168,7 +168,7 @@
 			</section>
 
 			<section class="pesquisas">
-				<h3>Pesquisa de Mestrado e Doutorado em andamento:</h3>
+				<h3>Pesquisa de Mestrado e Doutorado em andamento</h3>
 				<p>Flávio Cardoso Ventura. Pesquisa de doutorado: Diretrizes para o design de componentes em bambu para calçados femininos.</p>
 				<p>Gabriel Fernandes do Santos. Pesquisa de doutorado: Design participativo para o bem-estar em comunidades carentes.</p>
 				<p>João Victor Gomes. Pesquisa de mestrado: Produção e avaliação de prótese transtibial de baixo custo constituída por biocompósitos.</p>
