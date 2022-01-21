@@ -202,13 +202,14 @@
 
 			<section class="artigos-periodicos">
 				<h3>Artigos em Periódicos</h3>
-				<!-- <p>OSORIO, P. A. M. ; LANDIM, P. C. ; BARATA, T. Q. F. ; Pereira, M. A. R. . Tingimento natural eco-friendly de ripas de bambu com Curcuma longa. KEPES, v. 14, p. 437-457, 2020.</p>
+				<p>OSORIO, P. A. M. ; LANDIM, P. C. ; BARATA, T. Q. F. ; Pereira, M. A. R. . Tingimento natural eco-friendly de ripas de bambu com Curcuma longa. KEPES, v. 14, p. 437-457, 2020.</p>
 				<p>SANTOS, G.F. ; SASAOKA, S ; DOS REIS PEREIRA, MARCO ANTONIO . O Assentamento Rural Horto Aimorés e a Extensão Universitária do Projeto Bambu: um estudo de caso. CUADERNOS DEL CENTRO DE ESTUDIOS DE DISEÑO Y COMUNICACIÓN, v. 1, p. 121-147, 2020.</p>
 				<p>SANTOS, G. F. ; SASAOKA, S. ; PEREIRA, M. A. R. . O Assentamento Rural Horto de Aimorés e a Extensão Universitária do projeto Bambu. CUADERNOS DEL CENTRO DE ESTUDIOS DE DISEÑO Y COMUNICACIÓN, 2019.</p>
 				<p>PASCHOARELLI, L. C. ; SANTOS, G. ; PEREIRA, MARCO A.R . Aplicação de materiais sustentáveis no design de artefatos de uso cotidiano: o caso do cabo de tesoura em bambu laminado. DESIGN E TECNOLOGIA, v. 9, p. 20-29, 2019.</p>
 				<p>SASAOKA, S. ; PEREIRA, M.A.R. ; SANTOS, Gabriel Fernandes . O pífano de bambu: o músico artífice de seu instrumento. Brazilian Journal of Development, v. 5, p. 12519-12537, 2019.</p>
 				<p>UENO, T. R. ; NASCIMENTO, R. A. do ; PEREIRA, M.A.R. . Desenvolvimento de uma estrutura Flat Foldable em Bambu Laminado Colado baseada no Padrão Miura-Ori. ESTUDOS EM DESIGN (ONLINE), v. 25, p. 1-24, 2017.</p>
 				<p>SANTOS, Gabriel Fernandes ; PEREIRA, M.A.R. . Design participativo para la innovación social. Procesos Urbanos, v. 4, p. 180-201, 2017. YAMADA, T. R. U. ; NASCIMENTO, R. A. ; PEREIRA, M. A. R. . Desenvolvimento de uma Estrutura Flat Foldable em Bambu Laminado Colado baseada no Padrão Miura-Ori. ESTUDOS EM DESIGN (ONLINE), v. 25 n2, p. 1-24, 2017.</p>
+				<p>YAMADA, T. R. U. ; NASCIMENTO, R. A. ; PEREIRA, M. A. R. . Desenvolvimento de uma Estrutura Flat Foldable em Bambu Laminado Colado baseada no Padrão Miura-Ori. ESTUDOS EM DESIGN (ONLINE), v. 25 n2, p. 1-24, 2017.</p>
 				<p>WECKWERTH, N. V. B. ; WECKWERTH, P. H. ; DUARTE, M. A. H. ; CESARIO, F. ; RIVERA-PENA, M. E. ; NEVES, F. T. ; Pereira, M.A.R. ; VIVAN, R. R. . Avaliação do pH, liberação de íons cálcio e atividade antimicrobiana do cimento Portland associado a Bambusa textilis em diferentes proporções. SALUSVITA: REVISTA DA AREA DE CIENCIAS BIOLOGICAS E DA SAUDE, v. 36, p. 365-379, 2017.</p>
 				<p>Pereira, M.A.R; BARATA, T. Q. F.. Bamboo as sustainable material used in design and civil construction: species, management, characterization and applications. Key Engineering Materials , v. 634(2015), p. 339-350, 2015. </p>
 				<p>PEREIRA, Marco A.R.; BARATA, TOMAS Q.F. Bamboo as Sustainable Material Used in Design and Civil Construction: Species, Management, Characterization and Applications. Key Engineering Materials (Online) , v. 634, p. 339-350, 2014.</p>
@@ -222,7 +223,7 @@
 				<p>GALHIANE, M S ; RISSATO, S R ; PEREIRA, M. A. R. ; ALMEIDA, Marcos Vinícius de ; SILVA, L C da . Evaluation of the effects of different extraction methods for main volatile compounds from Bambusa textilis leaves. Journal of Bamboo and Rattan, VSP - Holanda, v. 4, n.3, p. 243-250, 2005.</p>
 				<p>PEREIRA, M. A. R.. Determinação de características físicas do bambu gigante laminado (Dendrocalamus giganteus) cultivado na Unesp/Campus de Bauru. Revista Madeira, v. 18, p. 1-15, 2006.</p>
 				<p>PEREIRA, M. A. R.. Características Hidráulicas de Tubos de Bambu Gigante. Engenharia Agrícola , Jaboticabal, v. 21, n.1, p. 32-42, 2002.</p>
-				<p>PEREIRA, M. A. R.; SOUSA, A. P. . Hidráulica de tubos de bambu : Coeficiente C de Hazen-Williams. Irriga (Botucatu), FCA-Unesp-Botucatu, v. 4, n.2, p. 120-138, 1999.</p> -->
+				<p>PEREIRA, M. A. R.; SOUSA, A. P. . Hidráulica de tubos de bambu : Coeficiente C de Hazen-Williams. Irriga (Botucatu), FCA-Unesp-Botucatu, v. 4, n.2, p. 120-138, 1999.</p>
 			</section>
 
 			<section class="pesquisas">
