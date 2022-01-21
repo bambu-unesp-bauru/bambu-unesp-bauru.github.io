@@ -25,7 +25,7 @@
 				</p>
 				<p class="depoimentos__content__grupo__paragrafo">
 					“Entender melhor o que é a sustentabilidade e o que envolve ao pensar se é algo sustentável ou não, pois antes de entrar no Taquara parecia ser algo que não tinha nenhuma ligação comigo e tinha uma imagem muito de algo relacionado só com preservação da natureza, mas ao entrar no Taquara percebi que era muito além do que isso”.
-					<br><br><strong>(Roni Guiotoku, assessor cultural, ex extensionistas 2010-2012)</strong>
+					<br><br><strong>(Ronni M. Guiotoko, assessor cultural, ex extensionistas 2010-2012)</strong>
 				</p>		
 			</div>
 		</section>
