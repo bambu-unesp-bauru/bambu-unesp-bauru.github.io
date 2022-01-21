@@ -17,6 +17,7 @@ module.exports = {
         '/extensao',
         '/produtos',
         '/publicacoes',
+        '/depoimentos',
         '/videos',
         '/glossario',
         '/quem-somos',
