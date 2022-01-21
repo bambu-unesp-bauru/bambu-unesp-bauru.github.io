@@ -235,11 +235,11 @@
 				<p>Rodrigo Domingos Borges. Determinação da densidade aparente ao longo do internó, em três diferentes alturas do colmo. Graduação Engenharia Mecânica Unesp Bauru.</p> -->
 				
 				<!-- incluido por m-dantas -->
-				<!-- <p>Eduardo Miguel Marques. Relatório final de projeto de extensão. Graduação Engenharia Civil e Ambiental Unesp Bauru. 2017.</p>
+				<p>Eduardo Miguel Marques. Relatório final de projeto de extensão. Graduação Engenharia Civil e Ambiental Unesp Bauru. 2017.</p>
 				<p>Livia Garcia Ferrari. Design sustentável com bambu (Projeto de geração de renda para o Assentamento Rural Horto de Aimorés). Graduação em Design. 2012.</p>
 				<p>Mariana Lourenço. Relatório final: bambu e sustentabilidade: análise comparativa entre três processos de produção de mobiliário. Graduação Engenharia Mecânica Unesp Bauru. 2011.</p>
 				<p>Pedro Alexandre Aniceto. Treliça espacial com peças-sistema de bambu in natura. Graduação em Arquitetura da FAAC Unesp Bauru. 2017.</p>
-				<p>Rodrigo Domingos Borges. Determinação da densidade aparente ao longo do internó, em três diferentes alturas do colmo. Graduação Engenharia Mecânica Unesp Bauru.</p> -->
+				<p>Rodrigo Domingos Borges. Determinação da densidade aparente ao longo do internó, em três diferentes alturas do colmo. Graduação Engenharia Mecânica Unesp Bauru.</p>
 			</section>
 
 			<section class="pesquisas">
