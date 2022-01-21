@@ -54,23 +54,7 @@
 				<p>PEREIRA, M. A. R.; GAWAMI, Kroshow ; AZZINI, A. ; BERALDO, Antonio Ludovico . BAMBU : CARACTERÍSTICAS E APLICAÇÕES. In: Wesley Jorge Freire; Antonio Ludovico Beraldo. (Org.). TECNOLOGIAS E MATERIAIS ALTERNATIVOS DE CONSTRUÇÃO. Campinas: Editora da Unicamp, 2003, v. , p. 253-299.</p> 
 				<p>PEREIRA, M. A. R.. O uso do bambu na irrigação: Montagem de um sistema de irrigação por aspersão de pequeno porte utilizando tubulação de bambu. In: UFPB/SBEA. (Org.). Materiais não Convencionais para Construções Rurais. Paraiba: UFPB/SBEA, 1997, v. , p. 293-323.</p>  -->
 
-				<!-- incluido por m-dantas -- antigo -->		
-				<!-- <p>SASAOKA, S.; Pereira, M. A. R. . RELAÇÕES E IMPLICAÇÕES DA CADEIA PRODUTIVA DO BAMBU: UMA PERSPECTIVA CULTURAL. In: Luis Carlos Paschoarelli ; Marizilda dos Santos Menezes. (Org.). Design. Ensino, processos e comunicação. 1ed.Bauru: Canal 6, 2020, v. 1, p. 132-152.</p>
-				<p>SASAOKA, S.; SANTOS, G. F.; BARATA, T. Q. F.; Pereira, M.A.R. O Design de Produtos com Bambu. In: Lisiane Librelotto; Fabiano Ostapiv. (Org.). Bambu - Caminhos para o desenvolvimento Sustentável no Brasil. 1ed.Florianpolis: UFSC, 2019, v. 1, p. 151-168.</p>
-				<p>SANTOS, G. F. ; Pereira, M. A. R. ; Reis, M.L. . O Design participante como opção sustentável na contemporaneidade: análises iniciais. In: Luis Carlos Paschoarelli; Marizilda dos Santos Menezes. (Org.). DESIGN CENÁRIO DIVERSOS DE PESQUISA. 1ed.Bauru: Canal 6, 2019, v. 1, p. 87-103.</p>
-				<p>SANTOS, J. V. G. ; PEREIRA, M.A.R. ; BARATA, T. Q. F. . Aplicação do bambu na modelagem 3D: renderização e análise de elementos finitos. In: Renata Magagnim; Paula Landim; Maria Solange Gurgel de Castro Fontes; Fausto orsi Medola. (Org.). Interdisciplinaridade nas pesquisas em Design, Arquitetura e Urbanismo.. 1ed.Bauru: Canal 6, 2018, v. 1, p. 13-23.</p>
-				<p>GODINHO, G. M. ; BARATA, T. Q. F. ; PEREIRA, M.A.R. . Design e experimentação com bambu:desenvolvimento de uma linha de óculos de sol sustentável. In: Amilton Arruda; Paulo Ferroli; Lisiane Librelotto. (Org.). Design, Artefatos e Sistema Sustentável. 1ed.São Paulo: Blucher, 2018, v. 1, p. 287-300.</p>
-				<p>SANTOS, J. V. G. ; PEREIRA, M.A.R. ; MEDOLA, F. O. ; PASCHOARELLI, L. C. . Design Sustentável aolicado ao projeto de produtos assistivos (próteses) fabricados com biocompósitos. In: Amilton Arruda; Paulo Ferroli; Lisiane Librelotto. (Org.). Design, Artefatos e Sistema Sustentável. 1ed.São Paulo: Blucher, 2018, v. 1, p. 333-350.</p>
-				<p>YAMADA, T. R. U. ; NASCIMENTO, R. A. ; PEREIRA, M.A.R. . Flat foldable strucuture in Glued Laminated Bamboo based on origami and kirigami design. In: Robert Lang; Mark Bolitho; Zhong You. (Org.). Origami. The proceedings from the 7th International Meeting on Origami in Science, Mathematics and Education. Volume one: Design, Education, History ans Science. 1ed.United Kingdom: Taquin, 2018, v. 1, p. 285-298.</p>
-				<p>Pereira, M. A. R.. Implantação do Projeto Bambu no assentamento rural Horto de Aimorés (SP).. In: Patrícia Maria Drumond; Guilherme Wiedman. (Org.). Bambus no Brasil da biologia à tecnologia. 1ed.Rio de Janeiro: ICH - Instituto Ciência Hoje, 2017, v. 1, p. 321-334.</p>
-				<p>AZAMBUJA, M. A. ; AFFONSO, S. B. A. ; Battistelle, R.A.G. ; VALARELLI, I. D. ; Pereira, M. A. R. ; SILVA, S. A. M. ; LAHR, F. A. R. . Esquadrias de bambu laminado colado. Bambus no Brasil da biologia à tecnologia. 1ed.Rio de Janeiro: ICH - Instituto Ciência Hoje, 2017, v. 1, p. 511-525.</p>
-				<p>SANTOS, J. V. G. ; PEREIRA, M.A.R. ; MEDOLA, F. O. ; PASCHOARELLI, L. C. . Design sustentável aplicado ao projeto de produtos assistivos (proteses) fabricados com biocompósitos. In: Amilton J. V. Arruda; Paulo Cesar Machado Ferroli; Lisiane Ilha Liberlotto. (Org.). Design, Artefatos e Sistema Sustentável. 1ed.São Paulo: Blucher, 2017, v. 1, p. 333-350.</p>
-				<p>GODINHO, G. M. ; BARATA, T. Q. F. ; PEREIRA, M. A. R. . Design e experimentação em bambu: desenvolvimento de uma linha de óculos de sol sustentável. In: Amilton J. V. Arruda; Paulo Cesar Machado Ferroli; Lisiane Ilha Liberlotto. (Org.). Design, Artefatos e Sistema Sustentável. 1ed.São Paulo: Blucher, 2017, v. 1, p. 287-300.</p>
-				<p>Pereira, M. A. R.; GODINHO, G. M. ; MARINO, J. O. M. ; FUJIMORI, M. H. C. . PROJETO TAQUARA. In: Luttgardes de Oliveira Neto; Marcelo Carbone Carneiro; Paulo Noronha Lisboa Filho; Fernanda Henriques. (Org.). Extensão Universitária Diversidade e Desenvolvimento Humano. 1ed.São Paulo: Cultura Acadêmica / Editora Unesp, 2017, v. 1, p. 31-50.</p>
-				<p>Carneiro, R. R. ; Pereira, M. A. R. . Bambu laminado colado termotratado: dimensões estratégicas na produção de móveis sustentáveis. In: Luis Carlos Paschoarelli ; Rosio Fernandez Baca Salcedo. (Org.). Design, Arquitetura e Urbanismo: Transversalidades. 1ed.Bauru: Canal 6, 2016, v. 1, p. 139-148.</p>
-				<p>YAMADA, T. R. U. ; NASCIMENTO, R. A. ; Pereira, M.A.R . Estrutura flat foldable baseada em técnica de corte e dobra do kirigami 3D: uma pesquisa experimental. In: Luis Carlso Paschoarelli ; Rosio Fernandez Baca Salcedo. (Org.). Design, Arquitetura e Urbanismo: Transversalidades. 1ed.Bauru: Canal 6, 2016, v. 1, p. 145-155.</p>
-				<p>VENTURA, F. C. ; Pereira, M.A.R ; MENEZES, M. S. . Design e arquitetura na integração social: resultados do Projeto Bambu. In: Luis Carlos Paschoarelli ; Rosio Fernandez Baca salcedo. (Org.). Design, Arquitetura e Urbanismo: Tranversalidades. 1ed.Bauru: CANAL 6, 2016, v. 1, p. 157-166.</p> -->
-
+				<!-- incluido por m-dantas -- antigo -->
 				<p>
 					SASAOKA, S.; Pereira, M. A. R. . RELAÇÕES E IMPLICAÇÕES DA CADEIA PRODUTIVA DO BAMBU: UMA PERSPECTIVA CULTURAL. In: Luis Carlos Paschoarelli ; Marizilda dos Santos Menezes. (Org.). Design. Ensino, processos e comunicação. 1ed.Bauru: Canal 6, 2020, v. 1, p. 132-152.
 				</p>
@@ -151,13 +135,9 @@
 					<p>PEREIRA, Marco Antonio dos Reis. CARACTERÍSTICAS HIDRÁULICAS DE TUBOS DE BAMBU GIGANTE (Dendrocalamus giganteus). Tese (Doutorado em Agronomia)- Faculdade de Ciências Agrárias, Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP. São Paulo. 1997</p> -->
 					
 					<!-- novo -->
-					<!-- <p>
+					<p>
 						SANTOS, G.F. O design participante e a tecnologia social do bambu como opções sustentáveis na contemporaneidade. Tese de doutorado. Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação. Disponível em: 
 						<a href="https://repositorio.unesp.br/handle/11449/214970">https://repositorio.unesp.br/handle/11449/214970</a>.
-					</p>
-					<p>
-						BARELLI, Breno Giordano Pensa. Design para sustentabilidade: modelo de cadeia produtiva do bambu laminado colado (BLC) e seus produtos. 2009. 131 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2009. Disponível em: 
-						<a href="http://hdl.handle.net/11449/89698">http://hdl.handle.net/11449/89698</a>.
 					</p>
 					<p>
 						BARELLI, Breno Giordano Pensa. Design para sustentabilidade: modelo de cadeia produtiva do bambu laminado colado (BLC) e seus produtos. 2009. 131 f. Dissertação (mestrado) - Universidade Estadual Paulista, Faculdade de Arquitetura, Artes e Comunicação, 2009. Disponível em: 
@@ -217,7 +197,7 @@
 					</p>
 					<p>
 						CARNEIRO, Rodrigo Rocha. Bambu Laminado Termotratado: diretrizes para o design de móveis sustentáveis. Pesquisa de doutorado em andamento. 
-					</p> -->
+					</p>
 			</section>
 
 			<section class="artigos-periodicos">
