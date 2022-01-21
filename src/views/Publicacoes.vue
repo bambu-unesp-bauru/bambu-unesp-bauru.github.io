@@ -243,8 +243,8 @@
 			</section>
 
 			<section class="pesquisas">
-				<!-- <h3>Iniciação científica</h3>
-				<p>Rodrigo Rocha Carneiro -  2009-2010  Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
+				<h3>Iniciação científica</h3>
+				<!-- <p>Rodrigo Rocha Carneiro -  2009-2010  Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
 				<p>Sabrina Saboya Antunes - 2010-2011   Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
 				<p>Camila Gondo - 2011-2012 - Implantação Do Projeto Bambu No Assentamento Rural Horto De Aimorés</p>
 				<p>Livia Garcia Ferrari - 2012-2013 - Design Sustentável com Bambu (Projeto de geração de renda para o Assentamento Rural Terra Nossa)</p>
