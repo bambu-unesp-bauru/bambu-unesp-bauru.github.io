@@ -240,6 +240,7 @@
 				<p>Mariana Lourenço. Relatório final: bambu e sustentabilidade: análise comparativa entre três processos de produção de mobiliário. Graduação Engenharia Mecânica Unesp Bauru. 2011.</p>
 				<p>Pedro Alexandre Aniceto. Treliça espacial com peças-sistema de bambu in natura. Graduação em Arquitetura da FAAC Unesp Bauru. 2017.</p>
 				<p>Rodrigo Domingos Borges. Determinação da densidade aparente ao longo do internó, em três diferentes alturas do colmo. Graduação Engenharia Mecânica Unesp Bauru.</p>
+				<p>ALMEIDA, C. D. Design em Bambu: elementos arquitetônicos de proteção solar. TCC curso de arquitetura Bauru: Faac- Unesp, 2020.</p>
 			</section>
 
 			<section class="pesquisas">

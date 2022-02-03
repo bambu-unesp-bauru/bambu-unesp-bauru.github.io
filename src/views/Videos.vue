@@ -55,7 +55,10 @@
 				<h3>Projeto Bambu Unesp</h3>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/7yY3hrHyYAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section>
-
+			<section>
+				<h3>Próteses de baixo custo</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/MOXm_LT7_N0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
 			<section>
 				<p>Conheça o <a href="https://www.youtube.com/channel/UC69BS0mXwPyoE4l4wuLKtgw">canal no youtube.</a></p>
 			</section>

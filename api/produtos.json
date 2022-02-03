@@ -1938,5 +1938,28 @@
 			"65_mesa_lateral_65_th.jpg",
 			"65_mesa_detalhe_65_th.jpg"
 		]
+	},
+	{
+		"registro": 65,
+		"nome":"Lanternas de bambu take akari",
+		"materiais":"Colmo de bambu in natura,  Ripas de bambu, leds.",
+		"especie":"Dendrocalamus Asper",
+		"tecnica":"Cortes logitudinal da parte central do colmo do bambu, preservando os internos e a casca. Cortes diagonais nas extrimdades. Lixamento. Fixação em estruturas com ripas.",
+		"dim_alt_larg_prof":"2,20, 1,60",
+		"descricao_fisica":"colmos cortados diagonalmente em uma das extremidades,com nós e internós. Orifícios na parede cilindrica para emissão de luz. Os colmos são fixados em tripés construídos com ripas de bambu. Uma instalaçãoelétrica de Leds é inserida dentro de cada cilindro.",
+		"autor":"Grupo Chikaken",
+		"origem":"Laboratório de Experimentação com Bambu – UNESP/Bauru na FEB – Faculdade de Engenharia de Bauru",
+		"data":2020,
+		"producao":"Grupo Take Akari, membros e ex membros do Grupo Taquara, Associação Nipo de Bauru, voluntários.",
+		"funcao":"Instalação artística",
+		"dados_patrimoniais":"Laboratório de Experimentação com Bambu-UNESP/BAURUna FEB- Faculdade de engenharia de Bauru.",
+		"compilacao_autores":"Silvia Sasaoka.",
+		"compilacao_data":"27/01/2022",
+		"imagens":[
+			"66_lanternas_de_bambu_com_desenhos_66_th.jpg",
+			"66_lanternas_de_bambu_com_desenhos1_66_th.jpg",
+			"66_lanternas_de_bambu_vazados_circulares_66_th.jpg",
+			"66_lanternas_de_bambu_vazados_circulares1_66_th.jpg"
+		]
 	}
 ]
