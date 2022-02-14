@@ -9,23 +9,23 @@
 			<div class="depoimentos__content__grupo">
 				<p class="depoimentos__content__grupo__paragrafo">
 					“É imensurável o impacto indireto que o Projeto Taquara teve em minha vida além da questão do aprendizado sobre o bambu. Foi dentro do Projeto que tive contato com maquinários pesados pela primeira vez e com isso aprendizado maior sobre marcenaria e as diversas cadeias produtivas industriais, mesmo que sem relação direta com o bambu. Também o conhecimento operacional da execução de projetos e da elaboração de projetos executivos foi adquirida devido a dinâmica de como nos organizávamos como grupo sendo independência do grupo dentro do projeto para tomar decisões também foi crucial nesta parte. Sinto que o Projeto me forneceu mais habilidades exigidas no âmbito profissional do que a própria graduação e estágios”		
-					<br><br><strong>(Eduardo Miguel, engenheiro, extensionistas 2015-2018)</strong>.
+					<br><br><strong>(Eduardo Miguel, engenheiro, extensionista 2015-2018).</strong>
 				</p>
 				<p class="depoimentos__content__grupo__paragrafo">
 					“Na minha época a grade curricular do curso de Design ainda não dedicava um espaço para a formação em sustentabilidade. Desta forma o conhecimento dentro deste tema obtido na formação tradicional não pode ser tão rico quanto os conhecimentos obtidos dentro do Projeto Taquara. Porém, o marco zero para o contato com esse conhecimento ocorreu no momento em que o projeto foi contemplado com o Prêmio Universidades Solidárias. Este prêmio tinha como objetivo, financiar projetos universitários com foco em sustentabilidade por todo o Brasil. Os projetos contemplados deviam seguir um protocolo de indicadores a serem cumpridos dentro de um prazo. Estes indicadores tocavam as esferas ambientais, sociais e econômicas, o que nos fez acordar para o que era a sustentabilidade de fato, ao mesmo tempo que nos ensinou que apenas com Design não seria possível realizar um feito tão grande. O prêmio nos abriu os olhos para a profundidade do tema e nos fez perceber também que a própria universidade ainda não estava apta para a formação em sustentabilidade de designers”.
-					<br><br><strong>(Rodrigo R. Carneiro, designer, ex extensionistas 2008-2010)</strong>
+					<br><br><strong>(Rodrigo R. Carneiro, designer, extensionista 2008-2010).</strong>
 				</p>
 				<p class="depoimentos__content__grupo__paragrafo">
 					“Tornei-me consciente sobre a complexidade das problemáticas sociais, econômicas e ambientais e a urgente necessidade de mudanças, principalmente a que diz respeito ao nível e ao padrão de produção e consumo de novos produtos. Estar membro do Taquara me possibilitou estudar sobre a formulação teórica-conceitual do termo desenvolvimento sustentável e as tentativas de implementação de ações sustentáveis. Os estudos foram complementados com a atuação em ações extensionistas. As ações extensionistas junto a comunidades locais, como o assentamento rural Horto de Aimorés, aproximou-me da realidade socioeconômica de boa parte da população brasileira. Para entender esse cenário de marginalização socioeconômica, estive envolvido ativamente nas atividades extensionistas realizadas pelo Taquara junto a Viverde do assentamento. Essa aproximação tornou-me sensível à realidade que não vivencio, na qual trabalhávamos para transformá-la por meio da cadeia produtiva do bambu, visando a geração de renda com a comercialização de bambus, subprodutos, produtos e serviços”.
-					<br><br><strong>(Gabriel F. Santos, designer, extensionista” 2009-2014)</strong>
+					<br><br><strong>(Gabriel F. Santos, designer, extensionista 2009-2014).</strong>
 				</p>
 				<p class="depoimentos__content__grupo__paragrafo">
 					“O Taquara foi muito importante para eu ter a visão de um ciclo completo da criação de um produto, apesar de estarmos numa época que tudo é muito industrial, com as etapas bem segmentadas e separadas, ter essa visão completa e participar de todas as etapas para entender melhor as características da matéria prima e os processos que ela passa ajudou a entender como projetar pensando além do produto final”.	
-					<br><br><strong>(Laura C. Ribeiro, fotógrafa, extensionista 2015-2018)</strong>
+					<br><br><strong>(Laura C. Ribeiro, fotógrafa, extensionista 2015-2018).</strong>
 				</p>
 				<p class="depoimentos__content__grupo__paragrafo">
 					“Entender melhor o que é a sustentabilidade e o que envolve ao pensar se é algo sustentável ou não, pois antes de entrar no Taquara parecia ser algo que não tinha nenhuma ligação comigo e tinha uma imagem muito de algo relacionado só com preservação da natureza, mas ao entrar no Taquara percebi que era muito além do que isso”.
-					<br><br><strong>(Ronni M. Guiotoko, assessor cultural, ex extensionistas 2010-2012)</strong>
+					<br><br><strong>(Ronni M. Guiotoko, assessor cultural, extensionista 2010-2012).</strong>
 				</p>		
 			</div>
 		</section>
